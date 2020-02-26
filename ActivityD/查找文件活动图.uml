@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_V6hysFcNEeq03Pz5LOViEw" name="ActivityD">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_WAIEYFcNEeq03Pz5LOViEw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_V9YSYFcNEeq03Pz5LOViEw" name="查找文件" node="_hwf3sFeoEeqdt6_Jlf06DQ _iPHGUFeoEeqdt6_Jlf06DQ _xcvHEFeoEeqdt6_Jlf06DQ _OzbpYFerEeqRT7_LjWR0uw _amr1AFerEeqRT7_LjWR0uw _OvXMQFesEeqRT7_LjWR0uw _WfXk4FesEeqRT7_LjWR0uw">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_tXUw4FeoEeqdt6_Jlf06DQ" target="_xcvHEFeoEeqdt6_Jlf06DQ" source="_iPHGUFeoEeqdt6_Jlf06DQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_6f-pMFeoEeqdt6_Jlf06DQ" name="得到文件目录" target="_hwf3sFeoEeqdt6_Jlf06DQ" source="_xcvHEFeoEeqdt6_Jlf06DQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_UhEhoFerEeqRT7_LjWR0uw" name="false" target="_OzbpYFerEeqRT7_LjWR0uw" source="_hwf3sFeoEeqdt6_Jlf06DQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_lfyskFerEeqRT7_LjWR0uw" name="true" target="_amr1AFerEeqRT7_LjWR0uw" source="_hwf3sFeoEeqdt6_Jlf06DQ"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_BT1bQFesEeqRT7_LjWR0uw" name="继续读取" target="_xcvHEFeoEeqdt6_Jlf06DQ" source="_OzbpYFerEeqRT7_LjWR0uw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_SuXYcFesEeqRT7_LjWR0uw" name="得到文件集合" target="_OvXMQFesEeqRT7_LjWR0uw" source="_amr1AFerEeqRT7_LjWR0uw"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ZOD_wFesEeqRT7_LjWR0uw" target="_WfXk4FesEeqRT7_LjWR0uw" source="_OvXMQFesEeqRT7_LjWR0uw"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_hwf3sFeoEeqdt6_Jlf06DQ" name="目录是否存在" incoming="_6f-pMFeoEeqdt6_Jlf06DQ" outgoing="_UhEhoFerEeqRT7_LjWR0uw _lfyskFerEeqRT7_LjWR0uw"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_iPHGUFeoEeqdt6_Jlf06DQ" name="开始" outgoing="_tXUw4FeoEeqdt6_Jlf06DQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_xcvHEFeoEeqdt6_Jlf06DQ" name="读取配置" incoming="_tXUw4FeoEeqdt6_Jlf06DQ _BT1bQFesEeqRT7_LjWR0uw" outgoing="_6f-pMFeoEeqdt6_Jlf06DQ"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_OzbpYFerEeqRT7_LjWR0uw" name="创建目录" incoming="_UhEhoFerEeqRT7_LjWR0uw" outgoing="_BT1bQFesEeqRT7_LjWR0uw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_amr1AFerEeqRT7_LjWR0uw" name="扫描目录下的所有文件" incoming="_lfyskFerEeqRT7_LjWR0uw" outgoing="_SuXYcFesEeqRT7_LjWR0uw"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_OvXMQFesEeqRT7_LjWR0uw" name="返回文件集合" incoming="_SuXYcFesEeqRT7_LjWR0uw" outgoing="_ZOD_wFesEeqRT7_LjWR0uw"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_WfXk4FesEeqRT7_LjWR0uw" name="结束" incoming="_ZOD_wFesEeqRT7_LjWR0uw"/>
+  </packagedElement>
+</uml:Model>

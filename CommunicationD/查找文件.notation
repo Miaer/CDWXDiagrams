@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_4KKzsFg9EeqGSK5hdWnsSg" type="PapyrusUMLCommunicationDiagram" name="Communication Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_4KKzsVg9EeqGSK5hdWnsSg" type="Interaction_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_4KKzslg9EeqGSK5hdWnsSg" type="Interaction_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_4KKzs1g9EeqGSK5hdWnsSg" type="Interaction_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_4KKztFg9EeqGSK5hdWnsSg" x="50"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_4KKztVg9EeqGSK5hdWnsSg" type="Interaction_SubfragmentCompartment">
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4KKztlg9EeqGSK5hdWnsSg"/>
+    </children>
+    <element xmi:type="uml:Interaction" href="查找文件.uml#_4KHJUFg9EeqGSK5hdWnsSg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4KKzt1g9EeqGSK5hdWnsSg" height="601"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_4KKzuFg9EeqGSK5hdWnsSg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_4KKzuVg9EeqGSK5hdWnsSg"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_4KKzulg9EeqGSK5hdWnsSg" diagramKindId="org.eclipse.papyrus.uml.diagram.communication">
+    <owner xmi:type="uml:Model" href="查找文件.uml#_4J68EFg9EeqGSK5hdWnsSg"/>
+  </styles>
+  <element xmi:type="uml:Interaction" href="查找文件.uml#_4KHJUFg9EeqGSK5hdWnsSg"/>
+</notation:Diagram>
