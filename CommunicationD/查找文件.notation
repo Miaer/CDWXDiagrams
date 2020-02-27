@@ -6,10 +6,63 @@
       <layoutConstraint xmi:type="notation:Location" xmi:id="_4KKztFg9EeqGSK5hdWnsSg" x="50"/>
     </children>
     <children xmi:type="notation:BasicCompartment" xmi:id="_4KKztVg9EeqGSK5hdWnsSg" type="Interaction_SubfragmentCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_UJcskFg_EeqGSK5hdWnsSg" type="Comment_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_UJcsklg_EeqGSK5hdWnsSg" type="Comment_BodyLabel"/>
+        <element xmi:type="uml:Comment" href="查找文件.uml#_UJa3YFg_EeqGSK5hdWnsSg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UJcskVg_EeqGSK5hdWnsSg" x="-6" y="10"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_ine30FkNEeqGSK5hdWnsSg" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_ine30lkNEeqGSK5hdWnsSg" type="Lifeline_NameLabel"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_ine301kNEeqGSK5hdWnsSg" type="Lifeline_FloatingNameLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_ine31FkNEeqGSK5hdWnsSg" y="15"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="查找文件.uml#_incbkFkNEeqGSK5hdWnsSg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ine30VkNEeqGSK5hdWnsSg" x="228" y="230"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_mWSE0FkNEeqGSK5hdWnsSg" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_mWSE0lkNEeqGSK5hdWnsSg" type="Lifeline_NameLabel"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_mWSE01kNEeqGSK5hdWnsSg" type="Lifeline_FloatingNameLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_mWSE1FkNEeqGSK5hdWnsSg" y="15"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="查找文件.uml#_mWQ2sFkNEeqGSK5hdWnsSg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mWSE0VkNEeqGSK5hdWnsSg" x="28" y="430"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_KVmy4FkOEeqGSK5hdWnsSg" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_KVmy4lkOEeqGSK5hdWnsSg" type="Lifeline_NameLabel"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_KVmy41kOEeqGSK5hdWnsSg" type="Lifeline_FloatingNameLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_KVmy5FkOEeqGSK5hdWnsSg" y="15"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="查找文件.uml#_KVkWoFkOEeqGSK5hdWnsSg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KVmy4VkOEeqGSK5hdWnsSg" x="328" y="530" width="161"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Z-i2oFkOEeqGSK5hdWnsSg" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_Z-i2olkOEeqGSK5hdWnsSg" type="Lifeline_NameLabel"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_Z-i2o1kOEeqGSK5hdWnsSg" type="Lifeline_FloatingNameLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_Z-i2pFkOEeqGSK5hdWnsSg" y="15"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="查找文件.uml#_Z-hogFkOEeqGSK5hdWnsSg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z-i2oVkOEeqGSK5hdWnsSg" x="568" y="410"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_G0T6wFksEeqGSK5hdWnsSg" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_G0T6wlksEeqGSK5hdWnsSg" type="Lifeline_NameLabel"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_G0T6w1ksEeqGSK5hdWnsSg" type="Lifeline_FloatingNameLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_G0T6xFksEeqGSK5hdWnsSg" y="15"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="查找文件.uml#_G0SFkFksEeqGSK5hdWnsSg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_G0T6wVksEeqGSK5hdWnsSg" x="88" y="550"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Z2iHIFkvEeqGSK5hdWnsSg" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_Z2iHIlkvEeqGSK5hdWnsSg" type="Lifeline_NameLabel"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_Z2iHI1kvEeqGSK5hdWnsSg" type="Lifeline_FloatingNameLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_Z2iHJFkvEeqGSK5hdWnsSg" y="15"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="查找文件.uml#_Z2gR8FkvEeqGSK5hdWnsSg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z2iHIVkvEeqGSK5hdWnsSg" x="748" y="210"/>
+      </children>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4KKztlg9EeqGSK5hdWnsSg"/>
     </children>
     <element xmi:type="uml:Interaction" href="查找文件.uml#_4KHJUFg9EeqGSK5hdWnsSg"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4KKzt1g9EeqGSK5hdWnsSg" height="601"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_4KKzt1g9EeqGSK5hdWnsSg" x="20" width="1101" height="821"/>
   </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_4KKzuFg9EeqGSK5hdWnsSg" name="diagram_compatibility_version" stringValue="1.4.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_4KKzuVg9EeqGSK5hdWnsSg"/>
@@ -17,4 +70,95 @@
     <owner xmi:type="uml:Model" href="查找文件.uml#_4J68EFg9EeqGSK5hdWnsSg"/>
   </styles>
   <element xmi:type="uml:Interaction" href="查找文件.uml#_4KHJUFg9EeqGSK5hdWnsSg"/>
+  <edges xmi:type="notation:Connector" xmi:id="_E0K54FkqEeqGSK5hdWnsSg" type="Path_Edge" source="_ine30FkNEeqGSK5hdWnsSg" target="_mWSE0FkNEeqGSK5hdWnsSg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_E0Lg8FkqEeqGSK5hdWnsSg" type="Path_MessageLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_E0Lg8VkqEeqGSK5hdWnsSg" x="52" y="64"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_E0Lg8lkqEeqGSK5hdWnsSg" type="Path_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_E0Lg81kqEeqGSK5hdWnsSg" x="1" y="-53"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_E0K54VkqEeqGSK5hdWnsSg"/>
+    <element xmi:type="uml:Message" href="查找文件.uml#_E0EzQFkqEeqGSK5hdWnsSg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_E0K54lkqEeqGSK5hdWnsSg" points="[-9, 2, -1, -134]$[-9, 135, -1, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_E0XHIFkqEeqGSK5hdWnsSg" id="(0.5114942528735632,0.9259259259259259)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_E0XHIVkqEeqGSK5hdWnsSg" id="(0.4621212121212121,0.037037037037037035)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_LadmgFksEeqGSK5hdWnsSg" type="Path_Edge" source="_ine30FkNEeqGSK5hdWnsSg" target="_G0T6wFksEeqGSK5hdWnsSg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Ladmg1ksEeqGSK5hdWnsSg" type="Path_MessageLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_LadmhFksEeqGSK5hdWnsSg" x="1"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_LadmhVksEeqGSK5hdWnsSg" type="Path_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_LadmhlksEeqGSK5hdWnsSg" x="1" y="-53"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_LadmgVksEeqGSK5hdWnsSg"/>
+    <element xmi:type="uml:Message" href="查找文件.uml#_LaW40FksEeqGSK5hdWnsSg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LadmglksEeqGSK5hdWnsSg" points="[6, 4, -78, -176]$[86, 173, 2, -7]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LanXgFksEeqGSK5hdWnsSg" id="(0.5402298850574713,0.8518518518518519)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LanXgVksEeqGSK5hdWnsSg" id="(0.5370370370370371,0.25925925925925924)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_URM9sFksEeqGSK5hdWnsSg" type="Path_Edge" source="_ine30FkNEeqGSK5hdWnsSg" target="_KVmy4FkOEeqGSK5hdWnsSg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_URM9s1ksEeqGSK5hdWnsSg" type="Path_MessageLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_URM9tFksEeqGSK5hdWnsSg" x="-93" y="12"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_URM9tVksEeqGSK5hdWnsSg" type="Path_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_URM9tlksEeqGSK5hdWnsSg" x="1" y="-53"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_URM9sVksEeqGSK5hdWnsSg"/>
+    <element xmi:type="uml:Message" href="查找文件.uml#_URG3EFksEeqGSK5hdWnsSg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_URM9slksEeqGSK5hdWnsSg" points="[4, 4, -292, -161]$[304, 157, 8, -8]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_URXVwFksEeqGSK5hdWnsSg" id="(0.6896551724137931,0.7407407407407407)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_URXVwVksEeqGSK5hdWnsSg" id="(0.37267080745341613,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_heSqEFksEeqGSK5hdWnsSg" type="Path_Edge" source="_ine30FkNEeqGSK5hdWnsSg" target="_KVmy4FkOEeqGSK5hdWnsSg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_heSqE1ksEeqGSK5hdWnsSg" type="Path_MessageLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_heSqFFksEeqGSK5hdWnsSg" x="-31" y="4"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_heSqFVksEeqGSK5hdWnsSg" type="Path_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_heSqFlksEeqGSK5hdWnsSg" x="1" y="-53"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_heSqEVksEeqGSK5hdWnsSg"/>
+    <element xmi:type="uml:Message" href="查找文件.uml#_heKuQFksEeqGSK5hdWnsSg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_heSqElksEeqGSK5hdWnsSg" points="[-3, 2, -138, -182]$[137, 175, 2, -9]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hedpMFksEeqGSK5hdWnsSg" id="(0.8045977011494253,0.7407407407407407)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hedpMVksEeqGSK5hdWnsSg" id="(0.4968944099378882,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_saRkkFkuEeqGSK5hdWnsSg" type="Path_Edge" source="_ine30FkNEeqGSK5hdWnsSg" target="_KVmy4FkOEeqGSK5hdWnsSg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_saRkk1kuEeqGSK5hdWnsSg" type="Path_MessageLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_saRklFkuEeqGSK5hdWnsSg" x="70" y="2"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_saRklVkuEeqGSK5hdWnsSg" type="Path_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_saRkllkuEeqGSK5hdWnsSg" x="1" y="-53"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_saRkkVkuEeqGSK5hdWnsSg"/>
+    <element xmi:type="uml:Message" href="查找文件.uml#_saKP0FkuEeqGSK5hdWnsSg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_saRkklkuEeqGSK5hdWnsSg" points="[-9, 2, -101, -282]$[91, 275, -1, -9]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sacjsFkuEeqGSK5hdWnsSg" id="(0.9195402298850575,0.7407407407407407)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sacjsVkuEeqGSK5hdWnsSg" id="(0.6,0.0)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_MQ8bMFkvEeqGSK5hdWnsSg" type="Path_Edge" source="_ine30FkNEeqGSK5hdWnsSg" target="_Z-i2oFkOEeqGSK5hdWnsSg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_MQ8bM1kvEeqGSK5hdWnsSg" type="Path_MessageLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MQ8bNFkvEeqGSK5hdWnsSg" x="1" y="-23"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_MQ8bNVkvEeqGSK5hdWnsSg" type="Path_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_MQ8bNlkvEeqGSK5hdWnsSg" x="1" y="-53"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_MQ8bMVkvEeqGSK5hdWnsSg"/>
+    <element xmi:type="uml:Message" href="查找文件.uml#_MQ2UkFkvEeqGSK5hdWnsSg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MQ8bMlkvEeqGSK5hdWnsSg" points="[4, -9, -208, -190]$[210, 171, -2, -10]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MRHaUFkvEeqGSK5hdWnsSg" id="(1.0,0.7407407407407407)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MRHaUVkvEeqGSK5hdWnsSg" id="(0.42,0.37037037037037035)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_RWc8cFkvEeqGSK5hdWnsSg" type="Path_Edge" source="_ine30FkNEeqGSK5hdWnsSg" target="_Z2iHIFkvEeqGSK5hdWnsSg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_RWc8c1kvEeqGSK5hdWnsSg" type="Path_MessageLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_RWc8dFkvEeqGSK5hdWnsSg" x="1" y="-23"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_RWc8dVkvEeqGSK5hdWnsSg" type="Path_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_RWc8dlkvEeqGSK5hdWnsSg" x="1" y="-53"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_RWc8cVkvEeqGSK5hdWnsSg"/>
+    <element xmi:type="uml:Message" href="查找文件.uml#_RWWOwFkvEeqGSK5hdWnsSg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RWc8clkvEeqGSK5hdWnsSg" points="[4, -9, -237, 29]$[230, -29, -11, 9]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RWpJsFkvEeqGSK5hdWnsSg" id="(1.0,0.7407407407407407)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_RWpJsVkvEeqGSK5hdWnsSg" id="(0.0,0.7407407407407407)"/>
+  </edges>
 </notation:Diagram>

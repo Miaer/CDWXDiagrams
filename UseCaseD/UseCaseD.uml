@@ -54,18 +54,16 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_65J1oFeREeqbGsV-5_nq1A" name="数据传输">
       <packagedElement xmi:type="uml:UseCase" xmi:id="_FgwwsFeWEeqbGsV-5_nq1A" name="接收文件"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_BatkgFeaEeqbGsV-5_nq1A" name="发送文件">
-        <include xmi:type="uml:Include" xmi:id="_BpXc0FegEeqdt6_Jlf06DQ" addition="_xd-BsFeeEeqdt6_Jlf06DQ"/>
-        <include xmi:type="uml:Include" xmi:id="_C__RgFegEeqdt6_Jlf06DQ" addition="_yrasQFeeEeqdt6_Jlf06DQ"/>
         <include xmi:type="uml:Include" xmi:id="_EZSmwFegEeqdt6_Jlf06DQ" addition="_zolfIFeeEeqdt6_Jlf06DQ"/>
+        <include xmi:type="uml:Include" xmi:id="_-4YWUFh4EeqGSK5hdWnsSg" addition="_qFsxkFh4EeqGSK5hdWnsSg"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Model" xmi:id="_J4tEgFeaEeqbGsV-5_nq1A" name="发送文件">
       <packagedElement xmi:type="uml:Package" xmi:id="_spwEwFeeEeqdt6_Jlf06DQ" name="发送文件">
-        <packagedElement xmi:type="uml:UseCase" xmi:id="_xd-BsFeeEeqdt6_Jlf06DQ" name="查找文件"/>
-        <packagedElement xmi:type="uml:UseCase" xmi:id="_yrasQFeeEeqdt6_Jlf06DQ" name="处理文件"/>
         <packagedElement xmi:type="uml:UseCase" xmi:id="_zolfIFeeEeqdt6_Jlf06DQ" name="执行发送"/>
-        <packagedElement xmi:type="uml:Dependency" xmi:id="_X6_r0FegEeqdt6_Jlf06DQ" client="_xd-BsFeeEeqdt6_Jlf06DQ" supplier="_MEzQAFeXEeqbGsV-5_nq1A"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_i6cb8FegEeqdt6_Jlf06DQ" client="_zolfIFeeEeqdt6_Jlf06DQ" supplier="_q0MgEFeYEeqbGsV-5_nq1A"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_qFsxkFh4EeqGSK5hdWnsSg" name="文件准备"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_BG4OMFh5EeqGSK5hdWnsSg" client="_qFsxkFh4EeqGSK5hdWnsSg" supplier="_MEzQAFeXEeqbGsV-5_nq1A"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Model" xmi:id="_NoGucFeaEeqbGsV-5_nq1A" name="接收文件"/>
@@ -79,7 +77,7 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Model" xmi:id="_FwBfQFeXEeqbGsV-5_nq1A" name="文件管理">
     <packagedElement xmi:type="uml:Package" xmi:id="_JTe-8FeXEeqbGsV-5_nq1A" name="文件管理">
-      <packagedElement xmi:type="uml:UseCase" xmi:id="_MEzQAFeXEeqbGsV-5_nq1A" name="配置文件获取路径"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_MEzQAFeXEeqbGsV-5_nq1A" name="获取文件路径"/>
       <packagedElement xmi:type="uml:UseCase" xmi:id="_TuQUsFeXEeqbGsV-5_nq1A" name="配置文件存储路径"/>
     </packagedElement>
   </packagedElement>

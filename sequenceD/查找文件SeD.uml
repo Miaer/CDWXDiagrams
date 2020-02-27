@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_gw1B0FhVEeqGSK5hdWnsSg" name="查找文件SeD">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_gx3joFhVEeqGSK5hdWnsSg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_gxa3sFhVEeqGSK5hdWnsSg" name="查找文件">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_jMRwkFhVEeqGSK5hdWnsSg" name="" type="_gxa3sFhVEeqGSK5hdWnsSg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_P5usYFhWEeqGSK5hdWnsSg" name="" type="_gxa3sFhVEeqGSK5hdWnsSg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_QHolgFhWEeqGSK5hdWnsSg" name="" type="_gxa3sFhVEeqGSK5hdWnsSg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_QcurwVhWEeqGSK5hdWnsSg" name="" type="_gxa3sFhVEeqGSK5hdWnsSg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_2z-_oFkIEeqGSK5hdWnsSg" name="" type="_gxa3sFhVEeqGSK5hdWnsSg"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_jMRJgFhVEeqGSK5hdWnsSg" name="" represents="_jMRwkFhVEeqGSK5hdWnsSg"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_P5uFUFhWEeqGSK5hdWnsSg" name="" represents="_P5usYFhWEeqGSK5hdWnsSg"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_QHn-cFhWEeqGSK5hdWnsSg" name="" represents="_QHolgFhWEeqGSK5hdWnsSg"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_QcurwFhWEeqGSK5hdWnsSg" name="" represents="_QcurwVhWEeqGSK5hdWnsSg"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_2z-YkFkIEeqGSK5hdWnsSg" name="" represents="_2z-_oFkIEeqGSK5hdWnsSg"/>
+  </packagedElement>
+</uml:Model>
