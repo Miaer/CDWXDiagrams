@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CDWXClassModel="http:///schemas/CDWXClassModel/_HYFdoFhlEeqGSK5hdWnsSg/7" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/CDWXClassModel/_HYFdoFhlEeqGSK5hdWnsSg/7 ../../CDWXClassModel/CDWXClassModel.profile.uml#_HYFdoVhlEeqGSK5hdWnsSg">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CDWXClassModel="http:///schemas/CDWXClassModel/_oJzGkFhtEeqGSK5hdWnsSg/8" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/CDWXClassModel/_oJzGkFhtEeqGSK5hdWnsSg/8 ../../CDWXClassModel/CDWXClassModel.profile.uml#_oJztoFhtEeqGSK5hdWnsSg">
   <uml:Model xmi:id="_Y37_AFcNEeq03Pz5LOViEw" name="ClassD" visibility="public" URI="">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_Y45oUFcNEeq03Pz5LOViEw">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -62,7 +62,16 @@
       </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_ATGdUFh4EeqGSK5hdWnsSg" client="_NjUGQFhkEeqGSK5hdWnsSg" supplier="_bbsD8FhnEeqGSK5hdWnsSg"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_3Y0_EFh5EeqGSK5hdWnsSg" name="downloadFileService"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_3Y0_EFh5EeqGSK5hdWnsSg" name="downloadFileService">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_LX_BYFnIEeqJjbUVxNn-GA" name="save">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_UiH1sFnIEeqJjbUVxNn-GA" name="downloadFile">
+          <type xmi:type="uml:Class" href="../../CDWXClassModel/java.uml#_2POvgeGMEeiScrMAsbkENg"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_b05fwFnIEeqJjbUVxNn-GA" name="result" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_8HgUsFh5EeqGSK5hdWnsSg" client="_NjUGQFhkEeqGSK5hdWnsSg" supplier="_3Y0_EFh5EeqGSK5hdWnsSg"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_RZk-MFkJEeqGSK5hdWnsSg" name="Utility">
       <ownedOperation xmi:type="uml:Operation" xmi:id="_dcbFAFkJEeqGSK5hdWnsSg" name="getFileMD5">
@@ -86,6 +95,9 @@
       <ownedOperation xmi:type="uml:Operation" xmi:id="_w4bSQFkrEeqGSK5hdWnsSg" name="checkDirAndCreate">
         <ownedParameter xmi:type="uml:Parameter" xmi:id="_7dvrIFkrEeqGSK5hdWnsSg" name="dirPath">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Lnd7MFlBEeqEoaNaoi7ihg" name="result" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
         </ownedParameter>
       </ownedOperation>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_nQ3ssFksEeqGSK5hdWnsSg" name="getFiles">
@@ -127,16 +139,39 @@
         </ownedParameter>
       </ownedOperation>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_qaAvAFnIEeqJjbUVxNn-GA" name="downloadFile">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_F1xgkFnJEeqJjbUVxNn-GA" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_M2g_cFnJEeqJjbUVxNn-GA" name="name" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_OVISgFnJEeqJjbUVxNn-GA" name="clientId" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Pr6fQFnJEeqJjbUVxNn-GA" name="path" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_RXf3UFnJEeqJjbUVxNn-GA" name="lenth" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_S1LWQFnJEeqJjbUVxNn-GA" name="md5" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_T7IRsFnJEeqJjbUVxNn-GA" name="stauts" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_MSFScFhlEeqGSK5hdWnsSg">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MSF5gVhlEeqGSK5hdWnsSg" source="PapyrusVersion">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MSF5glhlEeqGSK5hdWnsSg" key="Version" value="0.0.8"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MSF5g1hlEeqGSK5hdWnsSg" key="Comment" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MSF5hFhlEeqGSK5hdWnsSg" key="Copyright" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MSF5hVhlEeqGSK5hdWnsSg" key="Date" value="2020-02-26"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MSF5hlhlEeqGSK5hdWnsSg" key="Author" value=""/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ooXiwFk6EeqEoaNaoi7ihg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ooXiwVk6EeqEoaNaoi7ihg" key="Version" value="0.0.9"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ooXiwlk6EeqEoaNaoi7ihg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ooXiw1k6EeqEoaNaoi7ihg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ooXixFk6EeqEoaNaoi7ihg" key="Date" value="2020-02-26"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ooXixVk6EeqEoaNaoi7ihg" key="Author" value=""/>
       </eAnnotations>
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MSF5gFhlEeqGSK5hdWnsSg" source="http://www.eclipse.org/uml2/2.0.0/UML">
-        <references xmi:type="ecore:EPackage" href="../../CDWXClassModel/CDWXClassModel.profile.uml#_HYFdoVhlEeqGSK5hdWnsSg"/>
+        <references xmi:type="ecore:EPackage" href="../../CDWXClassModel/CDWXClassModel.profile.uml#_oJztoFhtEeqGSK5hdWnsSg"/>
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="../../CDWXClassModel/CDWXClassModel.profile.uml#_5nKAcFfMEeqGSK5hdWnsSg"/>
     </profileApplication>
@@ -144,7 +179,8 @@
   <CDWXClassModel:Service xmi:id="_P3Vh4FhlEeqGSK5hdWnsSg" base_Class="_wS6NcFhGEeqGSK5hdWnsSg"/>
   <CDWXClassModel:Service xmi:id="_gYlbwFhnEeqGSK5hdWnsSg" base_Class="_bbsD8FhnEeqGSK5hdWnsSg"/>
   <CDWXClassModel:Entity xmi:id="_pZUccFhnEeqGSK5hdWnsSg" base_Class="_8h1BYFhGEeqGSK5hdWnsSg"/>
-  <CDWXClassModel:Timer xmi:id="_u5uiQFhtEeqGSK5hdWnsSg" base_Class="_NjUGQFhkEeqGSK5hdWnsSg"/>
+  <CDWXClassModel:javautilTimer xmi:id="_u5uiQFhtEeqGSK5hdWnsSg" base_Class="_NjUGQFhkEeqGSK5hdWnsSg"/>
   <CDWXClassModel:Service xmi:id="_6dXuIFh5EeqGSK5hdWnsSg" base_Class="_3Y0_EFh5EeqGSK5hdWnsSg"/>
   <CDWXClassModel:Util xmi:id="_M7ga8FkKEeqGSK5hdWnsSg" base_Class="_RZk-MFkJEeqGSK5hdWnsSg"/>
+  <CDWXClassModel:Entity xmi:id="_1DtRkFnIEeqJjbUVxNn-GA" base_Class="_qaAvAFnIEeqJjbUVxNn-GA"/>
 </xmi:XMI>
