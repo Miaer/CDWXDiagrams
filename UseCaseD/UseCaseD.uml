@@ -1,6 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_ay4BsFcNEeq03Pz5LOViEw" name="UseCaseD">
-  <packageImport xmi:type="uml:PackageImport" xmi:id="_azwygFcNEeq03Pz5LOViEw">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_InBjkFeBEeqr7M-8SGCWSQ" name="UseCaseD">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_IqXLcFeBEeqr7M-8SGCWSQ">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
+  <packagedElement xmi:type="uml:Package" xmi:id="_NQC9IFeBEeqr7M-8SGCWSQ" name="CDWX服务器">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_O5TZ8FeBEeqr7M-8SGCWSQ" name="传输统计"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_O5UoEFeBEeqr7M-8SGCWSQ" name="查阅信息"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_O5UoEVeBEeqr7M-8SGCWSQ" name="传输管理"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_O5UoFFeBEeqr7M-8SGCWSQ" name="终端管理"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_O5UoFVeBEeqr7M-8SGCWSQ" name="用户管理"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_9u5JIFeQEeqbGsV-5_nq1A" name="数据传输">
+      <include xmi:type="uml:Include" xmi:id="_ISZx4FeWEeqbGsV-5_nq1A" addition="_FgwwsFeWEeqbGsV-5_nq1A"/>
+      <include xmi:type="uml:Include" xmi:id="_GWlooFeaEeqbGsV-5_nq1A" addition="_BatkgFeaEeqbGsV-5_nq1A"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Ss3LIFeBEeqr7M-8SGCWSQ" name="地面管理员">
+    <generalization xmi:type="uml:Generalization" xmi:id="_Ss3LIVeBEeqr7M-8SGCWSQ">
+      <general xmi:type="uml:Actor" href="../../UseCaseExample/CDWXD1.uml#_-Db0AFcHEeqlL7hyAiWpog"/>
+    </generalization>
+    <generalization xmi:type="uml:Generalization" xmi:id="_nRDA4FeBEeqr7M-8SGCWSQ" general="_TNPUUFeBEeqr7M-8SGCWSQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_TNPUUFeBEeqr7M-8SGCWSQ" name="用户"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Uc0F0FeBEeqr7M-8SGCWSQ" name="client"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_obHnUFeBEeqr7M-8SGCWSQ" memberEnd="_obKqoFeBEeqr7M-8SGCWSQ _obKqoVeBEeqr7M-8SGCWSQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_obKDkFeBEeqr7M-8SGCWSQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_obKDkVeBEeqr7M-8SGCWSQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_obKqoFeBEeqr7M-8SGCWSQ" name="用户管理" type="_O5UoFVeBEeqr7M-8SGCWSQ" association="_obHnUFeBEeqr7M-8SGCWSQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_obKqoVeBEeqr7M-8SGCWSQ" name="地面管理员" type="_Ss3LIFeBEeqr7M-8SGCWSQ" association="_obHnUFeBEeqr7M-8SGCWSQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_pNUgUFeBEeqr7M-8SGCWSQ" memberEnd="_pNVHYleBEeqr7M-8SGCWSQ _pNVHY1eBEeqr7M-8SGCWSQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pNVHYFeBEeqr7M-8SGCWSQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pNVHYVeBEeqr7M-8SGCWSQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pNVHYleBEeqr7M-8SGCWSQ" name="终端管理" type="_O5UoFFeBEeqr7M-8SGCWSQ" association="_pNUgUFeBEeqr7M-8SGCWSQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pNVHY1eBEeqr7M-8SGCWSQ" type="_obHnUFeBEeqr7M-8SGCWSQ" association="_pNUgUFeBEeqr7M-8SGCWSQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qGoG4FeBEeqr7M-8SGCWSQ" memberEnd="_qGot8VeBEeqr7M-8SGCWSQ _qGot8leBEeqr7M-8SGCWSQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qGoG4VeBEeqr7M-8SGCWSQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qGot8FeBEeqr7M-8SGCWSQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qGot8VeBEeqr7M-8SGCWSQ" name="传输管理" type="_O5UoEVeBEeqr7M-8SGCWSQ" association="_qGoG4FeBEeqr7M-8SGCWSQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_qGot8leBEeqr7M-8SGCWSQ" type="_Ss3LIFeBEeqr7M-8SGCWSQ" association="_qGoG4FeBEeqr7M-8SGCWSQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_r0joUFeBEeqr7M-8SGCWSQ" memberEnd="_r0k2cFeBEeqr7M-8SGCWSQ _r0k2cVeBEeqr7M-8SGCWSQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_r0kPYFeBEeqr7M-8SGCWSQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_r0kPYVeBEeqr7M-8SGCWSQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_r0k2cFeBEeqr7M-8SGCWSQ" name="查阅信息" type="_O5UoEFeBEeqr7M-8SGCWSQ" association="_r0joUFeBEeqr7M-8SGCWSQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_r0k2cVeBEeqr7M-8SGCWSQ" name="用户" type="_TNPUUFeBEeqr7M-8SGCWSQ" association="_r0joUFeBEeqr7M-8SGCWSQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Model" xmi:id="_2VZWkFeREeqbGsV-5_nq1A" name="数据传输">
+    <packagedElement xmi:type="uml:Package" xmi:id="_65J1oFeREeqbGsV-5_nq1A" name="数据传输">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_FgwwsFeWEeqbGsV-5_nq1A" name="接收文件"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_BatkgFeaEeqbGsV-5_nq1A" name="发送文件">
+        <include xmi:type="uml:Include" xmi:id="_EZSmwFegEeqdt6_Jlf06DQ" addition="_zolfIFeeEeqdt6_Jlf06DQ"/>
+        <include xmi:type="uml:Include" xmi:id="_-4YWUFh4EeqGSK5hdWnsSg" addition="_qFsxkFh4EeqGSK5hdWnsSg"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Model" xmi:id="_J4tEgFeaEeqbGsV-5_nq1A" name="发送文件">
+      <packagedElement xmi:type="uml:Package" xmi:id="_spwEwFeeEeqdt6_Jlf06DQ" name="发送文件">
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_zolfIFeeEeqdt6_Jlf06DQ" name="执行发送"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_i6cb8FegEeqdt6_Jlf06DQ" client="_zolfIFeeEeqdt6_Jlf06DQ" supplier="_q0MgEFeYEeqbGsV-5_nq1A"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_qFsxkFh4EeqGSK5hdWnsSg" name="文件准备"/>
+        <packagedElement xmi:type="uml:Dependency" xmi:id="_BG4OMFh5EeqGSK5hdWnsSg" client="_qFsxkFh4EeqGSK5hdWnsSg" supplier="_MEzQAFeXEeqbGsV-5_nq1A"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Model" xmi:id="_NoGucFeaEeqbGsV-5_nq1A" name="接收文件"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_VP7VEFeSEeqbGsV-5_nq1A" memberEnd="_VP7VE1eSEeqbGsV-5_nq1A _VP7VFFeSEeqbGsV-5_nq1A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VP7VEVeSEeqbGsV-5_nq1A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VP7VEleSEeqbGsV-5_nq1A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_VP7VE1eSEeqbGsV-5_nq1A" name="数据传输" type="_9u5JIFeQEeqbGsV-5_nq1A" association="_VP7VEFeSEeqbGsV-5_nq1A"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_VP7VFFeSEeqbGsV-5_nq1A" name="client" type="_Uc0F0FeBEeqr7M-8SGCWSQ" association="_VP7VEFeSEeqbGsV-5_nq1A"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Model" xmi:id="_FwBfQFeXEeqbGsV-5_nq1A" name="文件管理">
+    <packagedElement xmi:type="uml:Package" xmi:id="_JTe-8FeXEeqbGsV-5_nq1A" name="文件管理">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_MEzQAFeXEeqbGsV-5_nq1A" name="获取文件路径"/>
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_TuQUsFeXEeqbGsV-5_nq1A" name="配置文件存储路径"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Model" xmi:id="_edzyMFeYEeqbGsV-5_nq1A" name="系统管理">
+    <packagedElement xmi:type="uml:Package" xmi:id="_ko9s4FeYEeqbGsV-5_nq1A" name="系统管理">
+      <packagedElement xmi:type="uml:UseCase" xmi:id="_q0MgEFeYEeqbGsV-5_nq1A" name="配置发送地址"/>
+    </packagedElement>
+  </packagedElement>
 </uml:Model>

@@ -1,6 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Y37_AFcNEeq03Pz5LOViEw" name="ClassD">
-  <packageImport xmi:type="uml:PackageImport" xmi:id="_Y45oUFcNEeq03Pz5LOViEw">
-    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
-  </packageImport>
-</uml:Model>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CDWXClassModel="http:///schemas/CDWXClassModel/_oJzGkFhtEeqGSK5hdWnsSg/8" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/CDWXClassModel/_oJzGkFhtEeqGSK5hdWnsSg/8 ../../CDWXClassModel/CDWXClassModel.profile.uml#_oJztoFhtEeqGSK5hdWnsSg">
+  <uml:Model xmi:id="_Y37_AFcNEeq03Pz5LOViEw" name="ClassD" visibility="public" URI="">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_Y45oUFcNEeq03Pz5LOViEw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_sRIFYFfKEeqGSK5hdWnsSg">
+      <importedPackage xmi:type="uml:Profile" href="pathmap://Papyrus_JAVA_PROFILES/java.profile.uml#_6TYLMN0yEd6P1qtlpBOZyg"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_wS6NcFhGEeqGSK5hdWnsSg" name="SysParamService">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_L53KMFkqEeqGSK5hdWnsSg" name="getParamValueByName">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_bzdgIFkqEeqGSK5hdWnsSg" name="parmeteName">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_qpdEAFkqEeqGSK5hdWnsSg" name="parmeValue" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_8h1BYFhGEeqGSK5hdWnsSg" name="client">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_GbYgcFhHEeqGSK5hdWnsSg" name="clientName" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_XPPCsFhIEeqGSK5hdWnsSg" name="clientId" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_NjUGQFhkEeqGSK5hdWnsSg" name="DownloadFileScanTask">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_q_CH8FhlEeqGSK5hdWnsSg" name="DownloadFileScanTask"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_wvj8IFhlEeqGSK5hdWnsSg" name="scan"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_tJUjUFhnEeqGSK5hdWnsSg" name="SaveToDB">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_4Si6gFhnEeqGSK5hdWnsSg" name="clientId">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_yjrL0FhqEeqGSK5hdWnsSg" name="destFile">
+          <type xmi:type="uml:Class" href="../../CDWXClassModel/java.uml#_2POvgeGMEeiScrMAsbkENg"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_5J4q0FhqEeqGSK5hdWnsSg" name="md5">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_SzQxYFhuEeqGSK5hdWnsSg" name="createDirectory">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_mQpXIFhuEeqGSK5hdWnsSg" name="pClientList">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EEList"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_pFmyEFhuEeqGSK5hdWnsSg" name="pDownloadDir">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_hbwPUFhvEeqGSK5hdWnsSg" name="getListFiles">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_lunysFhvEeqGSK5hdWnsSg" name="pPath">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_R1aNkFhkEeqGSK5hdWnsSg" client="_NjUGQFhkEeqGSK5hdWnsSg" supplier="_wS6NcFhGEeqGSK5hdWnsSg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_bbsD8FhnEeqGSK5hdWnsSg" name="ClientService">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_iByqoFkqEeqGSK5hdWnsSg" name="getClientAll">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_R4z_cFkrEeqGSK5hdWnsSg" name="clients" direction="return">
+          <type xmi:type="uml:Interface" href="../../CDWXClassModel/java.uml#_1_MIZ-GMEeiScrMAsbkENg"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_ATGdUFh4EeqGSK5hdWnsSg" client="_NjUGQFhkEeqGSK5hdWnsSg" supplier="_bbsD8FhnEeqGSK5hdWnsSg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_3Y0_EFh5EeqGSK5hdWnsSg" name="downloadFileService">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_LX_BYFnIEeqJjbUVxNn-GA" name="save">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_UiH1sFnIEeqJjbUVxNn-GA" name="downloadFile">
+          <type xmi:type="uml:Class" href="../../CDWXClassModel/java.uml#_2POvgeGMEeiScrMAsbkENg"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_b05fwFnIEeqJjbUVxNn-GA" name="result" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_8HgUsFh5EeqGSK5hdWnsSg" client="_NjUGQFhkEeqGSK5hdWnsSg" supplier="_3Y0_EFh5EeqGSK5hdWnsSg"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_RZk-MFkJEeqGSK5hdWnsSg" name="Utility">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dcbFAFkJEeqGSK5hdWnsSg" name="getFileMD5">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_lnawgFkJEeqGSK5hdWnsSg" name="filePath">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_EZhy0FkKEeqGSK5hdWnsSg" name="md5" direction="return">
+          <type xmi:type="uml:DataType" href="../../CDWXClassModel/java.uml#_17QDk-GMEeiScrMAsbkENg"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_njW4wFkJEeqGSK5hdWnsSg" name="getFileMD5">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_u_esEFkJEeqGSK5hdWnsSg" name="file">
+          <type xmi:type="uml:Class" href="../../CDWXClassModel/java.uml#_2POvgeGMEeiScrMAsbkENg"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_AdbJoFkKEeqGSK5hdWnsSg" name="MD5" direction="return">
+          <type xmi:type="uml:DataType" href="../../CDWXClassModel/java.uml#_17QDk-GMEeiScrMAsbkENg"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_28YJ0FkMEeqGSK5hdWnsSg" name="FileUtil">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_w4bSQFkrEeqGSK5hdWnsSg" name="checkDirAndCreate">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_7dvrIFkrEeqGSK5hdWnsSg" name="dirPath">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Lnd7MFlBEeqEoaNaoi7ihg" name="result" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_nQ3ssFksEeqGSK5hdWnsSg" name="getFiles">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_vWhlMFksEeqGSK5hdWnsSg" name="dirPath">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_yjnMQFksEeqGSK5hdWnsSg" name="files" direction="return">
+          <type xmi:type="uml:Interface" href="../../CDWXClassModel/java.uml#_1_MIZ-GMEeiScrMAsbkENg"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_zmgMoFksEeqGSK5hdWnsSg" name="getFiles">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_6EbSUFksEeqGSK5hdWnsSg" name="listDirPath">
+          <type xmi:type="uml:Interface" href="../../CDWXClassModel/java.uml#_1_MIZ-GMEeiScrMAsbkENg"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_9xkScFksEeqGSK5hdWnsSg" name="files" direction="return">
+          <type xmi:type="uml:Interface" href="../../CDWXClassModel/java.uml#_1_MIZ-GMEeiScrMAsbkENg"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_GPe58FktEeqGSK5hdWnsSg" name="mvFile">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_PmSRQFktEeqGSK5hdWnsSg" name="sourceFilePath">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_Si0T0FktEeqGSK5hdWnsSg" name="destFilePath">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_dlXbQFktEeqGSK5hdWnsSg" name="result" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_RquYwFkuEeqGSK5hdWnsSg" name="mvFile">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_YttTUFkuEeqGSK5hdWnsSg" name="filePaths">
+          <type xmi:type="uml:Interface" href="../../CDWXClassModel/java.uml#_1_MIZ-GMEeiScrMAsbkENg"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_c9RrEFkuEeqGSK5hdWnsSg" name="destFilePath">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_f2WJ8FkuEeqGSK5hdWnsSg" name="result" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_qaAvAFnIEeqJjbUVxNn-GA" name="downloadFile">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_F1xgkFnJEeqJjbUVxNn-GA" name="id" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_M2g_cFnJEeqJjbUVxNn-GA" name="name" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_OVISgFnJEeqJjbUVxNn-GA" name="clientId" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Pr6fQFnJEeqJjbUVxNn-GA" name="path" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_RXf3UFnJEeqJjbUVxNn-GA" name="lenth" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_S1LWQFnJEeqJjbUVxNn-GA" name="md5" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_T7IRsFnJEeqJjbUVxNn-GA" name="stauts" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_MSFScFhlEeqGSK5hdWnsSg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ooXiwFk6EeqEoaNaoi7ihg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ooXiwVk6EeqEoaNaoi7ihg" key="Version" value="0.0.9"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ooXiwlk6EeqEoaNaoi7ihg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ooXiw1k6EeqEoaNaoi7ihg" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ooXixFk6EeqEoaNaoi7ihg" key="Date" value="2020-02-26"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ooXixVk6EeqEoaNaoi7ihg" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MSF5gFhlEeqGSK5hdWnsSg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../../CDWXClassModel/CDWXClassModel.profile.uml#_oJztoFhtEeqGSK5hdWnsSg"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../../CDWXClassModel/CDWXClassModel.profile.uml#_5nKAcFfMEeqGSK5hdWnsSg"/>
+    </profileApplication>
+  </uml:Model>
+  <CDWXClassModel:Service xmi:id="_P3Vh4FhlEeqGSK5hdWnsSg" base_Class="_wS6NcFhGEeqGSK5hdWnsSg"/>
+  <CDWXClassModel:Service xmi:id="_gYlbwFhnEeqGSK5hdWnsSg" base_Class="_bbsD8FhnEeqGSK5hdWnsSg"/>
+  <CDWXClassModel:Entity xmi:id="_pZUccFhnEeqGSK5hdWnsSg" base_Class="_8h1BYFhGEeqGSK5hdWnsSg"/>
+  <CDWXClassModel:javautilTimer xmi:id="_u5uiQFhtEeqGSK5hdWnsSg" base_Class="_NjUGQFhkEeqGSK5hdWnsSg"/>
+  <CDWXClassModel:Service xmi:id="_6dXuIFh5EeqGSK5hdWnsSg" base_Class="_3Y0_EFh5EeqGSK5hdWnsSg"/>
+  <CDWXClassModel:Util xmi:id="_M7ga8FkKEeqGSK5hdWnsSg" base_Class="_RZk-MFkJEeqGSK5hdWnsSg"/>
+  <CDWXClassModel:Entity xmi:id="_1DtRkFnIEeqJjbUVxNn-GA" base_Class="_qaAvAFnIEeqJjbUVxNn-GA"/>
+</xmi:XMI>
