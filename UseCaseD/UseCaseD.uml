@@ -60,10 +60,33 @@
     </packagedElement>
     <packagedElement xmi:type="uml:Model" xmi:id="_J4tEgFeaEeqbGsV-5_nq1A" name="发送文件">
       <packagedElement xmi:type="uml:Package" xmi:id="_spwEwFeeEeqdt6_Jlf06DQ" name="发送文件">
-        <packagedElement xmi:type="uml:UseCase" xmi:id="_zolfIFeeEeqdt6_Jlf06DQ" name="执行发送"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_zolfIFeeEeqdt6_Jlf06DQ" name="执行发送">
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_r6SmQVnZEeqJjbUVxNn-GA" name="ExtensionPoint1"/>
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_tBKHsFnZEeqJjbUVxNn-GA" name="ExtensionPoint2"/>
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_uAePoFnZEeqJjbUVxNn-GA" name="ExtensionPoint3"/>
+          <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_uy-qoVnZEeqJjbUVxNn-GA" name="ExtensionPoint4"/>
+        </packagedElement>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_i6cb8FegEeqdt6_Jlf06DQ" client="_zolfIFeeEeqdt6_Jlf06DQ" supplier="_q0MgEFeYEeqbGsV-5_nq1A"/>
         <packagedElement xmi:type="uml:UseCase" xmi:id="_qFsxkFh4EeqGSK5hdWnsSg" name="文件准备"/>
         <packagedElement xmi:type="uml:Dependency" xmi:id="_BG4OMFh5EeqGSK5hdWnsSg" client="_qFsxkFh4EeqGSK5hdWnsSg" supplier="_MEzQAFeXEeqbGsV-5_nq1A"/>
+        <packagedElement xmi:type="uml:Model" xmi:id="_DQZmgFnZEeqJjbUVxNn-GA" name="执行发送">
+          <packagedElement xmi:type="uml:Package" xmi:id="_HbNaEFnZEeqJjbUVxNn-GA" name="执行发送">
+            <packagedElement xmi:type="uml:UseCase" xmi:id="_M-te4FnZEeqJjbUVxNn-GA" name="登记发送文件信息">
+              <extend xmi:type="uml:Extend" xmi:id="_r6SmQFnZEeqJjbUVxNn-GA" extendedCase="_zolfIFeeEeqdt6_Jlf06DQ" extensionLocation="_r6SmQVnZEeqJjbUVxNn-GA"/>
+              <include xmi:type="uml:Include" xmi:id="_zt2-UFnbEeqJjbUVxNn-GA" addition="_bZ4H8FnZEeqJjbUVxNn-GA"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:UseCase" xmi:id="_bZ4H8FnZEeqJjbUVxNn-GA" name="发送文件内容">
+              <extend xmi:type="uml:Extend" xmi:id="_tBJgoFnZEeqJjbUVxNn-GA" extendedCase="_zolfIFeeEeqdt6_Jlf06DQ" extensionLocation="_tBKHsFnZEeqJjbUVxNn-GA"/>
+              <include xmi:type="uml:Include" xmi:id="_0qWbwFnbEeqJjbUVxNn-GA" addition="_d71uYFnZEeqJjbUVxNn-GA"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:UseCase" xmi:id="_d71uYFnZEeqJjbUVxNn-GA" name="文件内容发送完成">
+              <extend xmi:type="uml:Extend" xmi:id="_uAdokFnZEeqJjbUVxNn-GA" extendedCase="_zolfIFeeEeqdt6_Jlf06DQ" extensionLocation="_uAePoFnZEeqJjbUVxNn-GA"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:UseCase" xmi:id="_fd4I4FnZEeqJjbUVxNn-GA" name="校验发送文件">
+              <extend xmi:type="uml:Extend" xmi:id="_uy-qoFnZEeqJjbUVxNn-GA" extendedCase="_zolfIFeeEeqdt6_Jlf06DQ" extensionLocation="_uy-qoVnZEeqJjbUVxNn-GA"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Model" xmi:id="_NoGucFeaEeqbGsV-5_nq1A" name="接收文件"/>

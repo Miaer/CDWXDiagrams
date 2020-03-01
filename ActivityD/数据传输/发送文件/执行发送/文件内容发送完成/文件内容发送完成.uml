@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_7qhYQFnuEeqlZ6T0p1lO5g" name="文件内容发送完成">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_7rir8FnuEeqlZ6T0p1lO5g">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_7q0TMFnuEeqlZ6T0p1lO5g" name="文件内容发送完成" node="_0t6WAFnvEeqlZ6T0p1lO5g _e6CvIFnxEeqlZ6T0p1lO5g _oAWzYFnxEeqlZ6T0p1lO5g _wVOzoFnxEeqlZ6T0p1lO5g _lciWUFnyEeqlZ6T0p1lO5g _rBw5cFnyEeqlZ6T0p1lO5g _FBxesFnzEeqlZ6T0p1lO5g _JceIYFnzEeqlZ6T0p1lO5g _3N3NcFnzEeqlZ6T0p1lO5g _NWyMYFn0EeqlZ6T0p1lO5g _YbmvQFn1EeqlZ6T0p1lO5g">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_hAPmoFnxEeqlZ6T0p1lO5g" target="_e6CvIFnxEeqlZ6T0p1lO5g" source="_0t6WAFnvEeqlZ6T0p1lO5g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_3xX1EFnxEeqlZ6T0p1lO5g" target="_oAWzYFnxEeqlZ6T0p1lO5g" source="_e6CvIFnxEeqlZ6T0p1lO5g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_-sraUFnxEeqlZ6T0p1lO5g" target="_wVOzoFnxEeqlZ6T0p1lO5g" source="_oAWzYFnxEeqlZ6T0p1lO5g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_aVABMFnyEeqlZ6T0p1lO5g" name="true" target="_FBxesFnzEeqlZ6T0p1lO5g" source="_wVOzoFnxEeqlZ6T0p1lO5g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_jV7kQFn0EeqlZ6T0p1lO5g" name="false" target="_NWyMYFn0EeqlZ6T0p1lO5g" source="_wVOzoFnxEeqlZ6T0p1lO5g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_3FvWwFn0EeqlZ6T0p1lO5g" target="_JceIYFnzEeqlZ6T0p1lO5g" source="_FBxesFnzEeqlZ6T0p1lO5g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7M-R4Fn0EeqlZ6T0p1lO5g" target="_3N3NcFnzEeqlZ6T0p1lO5g" source="_JceIYFnzEeqlZ6T0p1lO5g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_CTK4gFn1EeqlZ6T0p1lO5g" name="false" target="_lciWUFnyEeqlZ6T0p1lO5g" source="_3N3NcFnzEeqlZ6T0p1lO5g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DCWSsFn1EeqlZ6T0p1lO5g" name="true" target="_rBw5cFnyEeqlZ6T0p1lO5g" source="_3N3NcFnzEeqlZ6T0p1lO5g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_a10u8Fn1EeqlZ6T0p1lO5g" target="_YbmvQFn1EeqlZ6T0p1lO5g" source="_lciWUFnyEeqlZ6T0p1lO5g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_bwQ98Fn1EeqlZ6T0p1lO5g" target="_YbmvQFn1EeqlZ6T0p1lO5g" source="_rBw5cFnyEeqlZ6T0p1lO5g"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_0t6WAFnvEeqlZ6T0p1lO5g" name="客户端请求" outgoing="_hAPmoFnxEeqlZ6T0p1lO5g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_e6CvIFnxEeqlZ6T0p1lO5g" name="解析消息" incoming="_hAPmoFnxEeqlZ6T0p1lO5g" outgoing="_3xX1EFnxEeqlZ6T0p1lO5g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_oAWzYFnxEeqlZ6T0p1lO5g" name="查找终端请求的文件信息" incoming="_3xX1EFnxEeqlZ6T0p1lO5g" outgoing="_-sraUFnxEeqlZ6T0p1lO5g"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_wVOzoFnxEeqlZ6T0p1lO5g" name="文件信息是否存在且终端一致" incoming="_-sraUFnxEeqlZ6T0p1lO5g" outgoing="_aVABMFnyEeqlZ6T0p1lO5g _jV7kQFn0EeqlZ6T0p1lO5g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_lciWUFnyEeqlZ6T0p1lO5g" name="返回完成信息" incoming="_CTK4gFn1EeqlZ6T0p1lO5g" outgoing="_a10u8Fn1EeqlZ6T0p1lO5g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_rBw5cFnyEeqlZ6T0p1lO5g" name="返回文件大小" incoming="_DCWSsFn1EeqlZ6T0p1lO5g" outgoing="_bwQ98Fn1EeqlZ6T0p1lO5g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_FBxesFnzEeqlZ6T0p1lO5g" name="删除缓存" incoming="_aVABMFnyEeqlZ6T0p1lO5g" outgoing="_3FvWwFn0EeqlZ6T0p1lO5g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_JceIYFnzEeqlZ6T0p1lO5g" name="更新文件状态" incoming="_3FvWwFn0EeqlZ6T0p1lO5g" outgoing="_7M-R4Fn0EeqlZ6T0p1lO5g"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_3N3NcFnzEeqlZ6T0p1lO5g" name="发送文件大小和终端发送的文件大小不相等" incoming="_7M-R4Fn0EeqlZ6T0p1lO5g" outgoing="_CTK4gFn1EeqlZ6T0p1lO5g _DCWSsFn1EeqlZ6T0p1lO5g"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_NWyMYFn0EeqlZ6T0p1lO5g" name="结束" incoming="_jV7kQFn0EeqlZ6T0p1lO5g"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_YbmvQFn1EeqlZ6T0p1lO5g" name="结束" incoming="_a10u8Fn1EeqlZ6T0p1lO5g _bwQ98Fn1EeqlZ6T0p1lO5g"/>
+  </packagedElement>
+</uml:Model>

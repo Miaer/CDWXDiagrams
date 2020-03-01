@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_jynDwFn1EeqlZ6T0p1lO5g" name="校验发送文件">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_jzgboFn1EeqlZ6T0p1lO5g">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_jzDvsFn1EeqlZ6T0p1lO5g" name="校验发送文件" node="_7RQfgFn1EeqlZ6T0p1lO5g _NeZlYFn2EeqlZ6T0p1lO5g _WvZ2sFn2EeqlZ6T0p1lO5g _zDg6oFn4EeqlZ6T0p1lO5g _LsUcYFn5EeqlZ6T0p1lO5g _p6PzkFn5EeqlZ6T0p1lO5g">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Hcb7kFn5EeqlZ6T0p1lO5g" target="_NeZlYFn2EeqlZ6T0p1lO5g" source="_7RQfgFn1EeqlZ6T0p1lO5g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_J02kcFn5EeqlZ6T0p1lO5g" target="_WvZ2sFn2EeqlZ6T0p1lO5g" source="_NeZlYFn2EeqlZ6T0p1lO5g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_LF-OEFn5EeqlZ6T0p1lO5g" target="_zDg6oFn4EeqlZ6T0p1lO5g" source="_WvZ2sFn2EeqlZ6T0p1lO5g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_o2Zw8Fn5EeqlZ6T0p1lO5g" target="_LsUcYFn5EeqlZ6T0p1lO5g" source="_zDg6oFn4EeqlZ6T0p1lO5g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_jnETYFn7EeqlZ6T0p1lO5g" target="_p6PzkFn5EeqlZ6T0p1lO5g" source="_zDg6oFn4EeqlZ6T0p1lO5g"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_7RQfgFn1EeqlZ6T0p1lO5g" name="客户端校验请求" outgoing="_Hcb7kFn5EeqlZ6T0p1lO5g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_NeZlYFn2EeqlZ6T0p1lO5g" name="解析消息" incoming="_Hcb7kFn5EeqlZ6T0p1lO5g" outgoing="_J02kcFn5EeqlZ6T0p1lO5g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_WvZ2sFn2EeqlZ6T0p1lO5g" name="获取校验文件" incoming="_J02kcFn5EeqlZ6T0p1lO5g" outgoing="_LF-OEFn5EeqlZ6T0p1lO5g"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_zDg6oFn4EeqlZ6T0p1lO5g" name="文件存在且终端一致" incoming="_LF-OEFn5EeqlZ6T0p1lO5g" outgoing="_o2Zw8Fn5EeqlZ6T0p1lO5g _jnETYFn7EeqlZ6T0p1lO5g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_LsUcYFn5EeqlZ6T0p1lO5g" name="删除缓存" incoming="_o2Zw8Fn5EeqlZ6T0p1lO5g"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_p6PzkFn5EeqlZ6T0p1lO5g" name="结束" incoming="_jnETYFn7EeqlZ6T0p1lO5g"/>
+  </packagedElement>
+</uml:Model>

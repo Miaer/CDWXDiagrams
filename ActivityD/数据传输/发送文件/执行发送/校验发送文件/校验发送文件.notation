@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_jzDvsVn1EeqlZ6T0p1lO5g" type="PapyrusUMLActivityDiagram" name="Activity Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_jzDvsln1EeqlZ6T0p1lO5g" type="Activity_Shape" lineColor="10265827">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jzDvs1n1EeqlZ6T0p1lO5g" type="Activity_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jzDvtFn1EeqlZ6T0p1lO5g" type="Activity_KeywordLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_jzDvtVn1EeqlZ6T0p1lO5g" type="Activity_ParameterCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_jzDvtln1EeqlZ6T0p1lO5g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_jzDvt1n1EeqlZ6T0p1lO5g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jzDvuFn1EeqlZ6T0p1lO5g"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_jzDvuVn1EeqlZ6T0p1lO5g" type="Activity_PreconditionCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_jzDvuln1EeqlZ6T0p1lO5g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_jzDvu1n1EeqlZ6T0p1lO5g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jzDvvFn1EeqlZ6T0p1lO5g"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_jzDvvVn1EeqlZ6T0p1lO5g" type="Activity_PostconditionCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_jzDvvln1EeqlZ6T0p1lO5g"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_jzDvv1n1EeqlZ6T0p1lO5g"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jzDvwFn1EeqlZ6T0p1lO5g"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_jzDvwVn1EeqlZ6T0p1lO5g" type="Activity_ActivityNodeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_7RSUsFn1EeqlZ6T0p1lO5g" type="InitialNode_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_7RSUsln1EeqlZ6T0p1lO5g" type="InitialNode_FloatingNameLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_7RSUs1n1EeqlZ6T0p1lO5g" x="28" y="4"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_7RSUtFn1EeqlZ6T0p1lO5g" type="InitialNode_StereotypeLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_7RSUtVn1EeqlZ6T0p1lO5g" y="15"/>
+        </children>
+        <element xmi:type="uml:InitialNode" href="校验发送文件.uml#_7RQfgFn1EeqlZ6T0p1lO5g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7RSUsVn1EeqlZ6T0p1lO5g" x="377" y="16" width="29" height="27"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_NeZlYVn2EeqlZ6T0p1lO5g" type="OpaqueAction_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_NeZlY1n2EeqlZ6T0p1lO5g" type="OpaqueAction_NameLabel"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_NeZlZFn2EeqlZ6T0p1lO5g" type="OpaqueAction_FloatingNameLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_NeZlZVn2EeqlZ6T0p1lO5g" y="15"/>
+        </children>
+        <element xmi:type="uml:OpaqueAction" href="校验发送文件.uml#_NeZlYFn2EeqlZ6T0p1lO5g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NeZlZln2EeqlZ6T0p1lO5g" x="360" y="90"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_WvZ2sVn2EeqlZ6T0p1lO5g" type="OpaqueAction_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_WvZ2s1n2EeqlZ6T0p1lO5g" type="OpaqueAction_NameLabel"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_WvZ2tFn2EeqlZ6T0p1lO5g" type="OpaqueAction_FloatingNameLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_WvZ2tVn2EeqlZ6T0p1lO5g" y="15"/>
+        </children>
+        <element xmi:type="uml:OpaqueAction" href="校验发送文件.uml#_WvZ2sFn2EeqlZ6T0p1lO5g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WvZ2tln2EeqlZ6T0p1lO5g" x="344" y="188"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_zDj98Fn4EeqlZ6T0p1lO5g" type="DecisionNode_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zDj98ln4EeqlZ6T0p1lO5g" type="DecisionNode_FloatingNameLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_zDj981n4EeqlZ6T0p1lO5g" x="65" y="6"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_zDj99Fn4EeqlZ6T0p1lO5g" type="DecisionNode_DecisionInputLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_zDj99Vn4EeqlZ6T0p1lO5g" y="15"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_zDj99ln4EeqlZ6T0p1lO5g" type="DecisionNode_StereotypeLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_zDj991n4EeqlZ6T0p1lO5g" y="15"/>
+        </children>
+        <element xmi:type="uml:DecisionNode" href="校验发送文件.uml#_zDg6oFn4EeqlZ6T0p1lO5g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zDj98Vn4EeqlZ6T0p1lO5g" x="360" y="283" width="58" height="31"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_LseNYFn5EeqlZ6T0p1lO5g" type="OpaqueAction_Shape" fillColor="10265827">
+        <children xmi:type="notation:DecorationNode" xmi:id="_LseNYln5EeqlZ6T0p1lO5g" type="OpaqueAction_NameLabel"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_LseNY1n5EeqlZ6T0p1lO5g" type="OpaqueAction_FloatingNameLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_LseNZFn5EeqlZ6T0p1lO5g" y="15"/>
+        </children>
+        <element xmi:type="uml:OpaqueAction" href="校验发送文件.uml#_LsUcYFn5EeqlZ6T0p1lO5g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LseNZVn5EeqlZ6T0p1lO5g" x="351" y="367"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_p6PzkVn5EeqlZ6T0p1lO5g" type="FlowFinalNode_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_p6Pzk1n5EeqlZ6T0p1lO5g" type="FlowFinalNode_FloatingNameLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_p6PzlFn5EeqlZ6T0p1lO5g" x="-58" y="-8"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_p6PzlVn5EeqlZ6T0p1lO5g" type="FlowFinalNode_StereotypeLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_p6Pzlln5EeqlZ6T0p1lO5g" y="15"/>
+        </children>
+        <element xmi:type="uml:FlowFinalNode" href="校验发送文件.uml#_p6PzkFn5EeqlZ6T0p1lO5g"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p6Pzkln5EeqlZ6T0p1lO5g" x="171" y="283" width="28" height="31"/>
+      </children>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jzDvwln1EeqlZ6T0p1lO5g"/>
+    </children>
+    <element xmi:type="uml:Activity" href="校验发送文件.uml#_jzDvsFn1EeqlZ6T0p1lO5g"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jzDvw1n1EeqlZ6T0p1lO5g"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_jzDvxFn1EeqlZ6T0p1lO5g" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_jzDvxVn1EeqlZ6T0p1lO5g"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_jzDvxln1EeqlZ6T0p1lO5g" diagramKindId="org.eclipse.papyrus.uml.diagram.activity">
+    <owner xmi:type="uml:Model" href="校验发送文件.uml#_jynDwFn1EeqlZ6T0p1lO5g"/>
+  </styles>
+  <element xmi:type="uml:Activity" href="校验发送文件.uml#_jzDvsFn1EeqlZ6T0p1lO5g"/>
+  <edges xmi:type="notation:Connector" xmi:id="_HclFgFn5EeqlZ6T0p1lO5g" type="ControlFlow_Edge" source="_7RSUsFn1EeqlZ6T0p1lO5g" target="_NeZlYVn2EeqlZ6T0p1lO5g">
+    <children xmi:type="notation:DecorationNode" xmi:id="_HclFg1n5EeqlZ6T0p1lO5g" type="ControlFlow_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HclFhFn5EeqlZ6T0p1lO5g" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HclFhVn5EeqlZ6T0p1lO5g" type="ControlFlow_WeightLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HclFhln5EeqlZ6T0p1lO5g" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HclFh1n5EeqlZ6T0p1lO5g" type="ControlFlow_GuardLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HclFiFn5EeqlZ6T0p1lO5g" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HclFiVn5EeqlZ6T0p1lO5g" type="ControlFlow_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HclFiln5EeqlZ6T0p1lO5g" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_HclFgVn5EeqlZ6T0p1lO5g"/>
+    <element xmi:type="uml:ControlFlow" href="校验发送文件.uml#_Hcb7kFn5EeqlZ6T0p1lO5g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HclFgln5EeqlZ6T0p1lO5g" points="[392, 76, -643984, -643984]$[390, 126, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HfHcIFn5EeqlZ6T0p1lO5g" id="(0.4482758620689655,0.9259259259259259)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HfHcIVn5EeqlZ6T0p1lO5g" id="(0.41333333333333333,0.225)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_J02kcVn5EeqlZ6T0p1lO5g" type="ControlFlow_Edge" source="_NeZlYVn2EeqlZ6T0p1lO5g" target="_WvZ2sVn2EeqlZ6T0p1lO5g">
+    <children xmi:type="notation:DecorationNode" xmi:id="_J02kdFn5EeqlZ6T0p1lO5g" type="ControlFlow_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_J02kdVn5EeqlZ6T0p1lO5g" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_J02kdln5EeqlZ6T0p1lO5g" type="ControlFlow_WeightLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_J02kd1n5EeqlZ6T0p1lO5g" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_J02keFn5EeqlZ6T0p1lO5g" type="ControlFlow_GuardLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_J02keVn5EeqlZ6T0p1lO5g" y="20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_J02keln5EeqlZ6T0p1lO5g" type="ControlFlow_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_J02ke1n5EeqlZ6T0p1lO5g" y="-20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_J02kcln5EeqlZ6T0p1lO5g"/>
+    <element xmi:type="uml:ControlFlow" href="校验发送文件.uml#_J02kcFn5EeqlZ6T0p1lO5g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_J02kc1n5EeqlZ6T0p1lO5g" points="[0, 6, 0, -65]$[-3, 64, -3, -7]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_J0_uYFn5EeqlZ6T0p1lO5g" id="(0.4266666666666667,0.85)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_J0_uYVn5EeqlZ6T0p1lO5g" id="(0.4485981308411215,0.175)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_LGCfgFn5EeqlZ6T0p1lO5g" type="ControlFlow_Edge" source="_WvZ2sVn2EeqlZ6T0p1lO5g" target="_zDj98Fn4EeqlZ6T0p1lO5g">
+    <children xmi:type="notation:DecorationNode" xmi:id="_LGDGkln5EeqlZ6T0p1lO5g" type="ControlFlow_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_kizi4Fn7EeqlZ6T0p1lO5g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_LGDGk1n5EeqlZ6T0p1lO5g" x="-8" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_LGDGlFn5EeqlZ6T0p1lO5g" type="ControlFlow_WeightLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_ki9T4Fn7EeqlZ6T0p1lO5g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_LGDGlVn5EeqlZ6T0p1lO5g" x="-1" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_LGDGlln5EeqlZ6T0p1lO5g" type="ControlFlow_GuardLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_ki9T4Vn7EeqlZ6T0p1lO5g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_LGDGl1n5EeqlZ6T0p1lO5g" x="8" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_LGDGmFn5EeqlZ6T0p1lO5g" type="ControlFlow_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_kjGd0Fn7EeqlZ6T0p1lO5g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_LGDGmVn5EeqlZ6T0p1lO5g" y="-19"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_LGDGkFn5EeqlZ6T0p1lO5g"/>
+    <element xmi:type="uml:ControlFlow" href="校验发送文件.uml#_LF-OEFn5EeqlZ6T0p1lO5g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_LGDGkVn5EeqlZ6T0p1lO5g" points="[-4, -3, -3, -31]$[6, 53, 7, 25]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LGMQgFn5EeqlZ6T0p1lO5g" id="(0.4392523364485981,0.975)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_LGMQgVn5EeqlZ6T0p1lO5g" id="(0.5172413793103449,0.3870967741935484)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_o2Zw8Vn5EeqlZ6T0p1lO5g" type="ControlFlow_Edge" source="_zDj98Fn4EeqlZ6T0p1lO5g" target="_LseNYFn5EeqlZ6T0p1lO5g">
+    <children xmi:type="notation:DecorationNode" xmi:id="_o2Zw9Fn5EeqlZ6T0p1lO5g" type="ControlFlow_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_kiD8AFn7EeqlZ6T0p1lO5g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_o2Zw9Vn5EeqlZ6T0p1lO5g" x="-10" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_o2Zw9ln5EeqlZ6T0p1lO5g" type="ControlFlow_WeightLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_kiD8AVn7EeqlZ6T0p1lO5g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_o2Zw91n5EeqlZ6T0p1lO5g" x="-1" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_o2Zw-Fn5EeqlZ6T0p1lO5g" type="ControlFlow_GuardLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_kiNtAFn7EeqlZ6T0p1lO5g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_o2Zw-Vn5EeqlZ6T0p1lO5g" x="10" y="17"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_o2Zw-ln5EeqlZ6T0p1lO5g" type="ControlFlow_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_kiW28Fn7EeqlZ6T0p1lO5g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_o2Zw-1n5EeqlZ6T0p1lO5g" x="1" y="-18"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_o2Zw8ln5EeqlZ6T0p1lO5g"/>
+    <element xmi:type="uml:ControlFlow" href="校验发送文件.uml#_o2Zw8Fn5EeqlZ6T0p1lO5g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_o2Zw81n5EeqlZ6T0p1lO5g" points="[401, 350, -643984, -643984]$[421, 457, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o2sr4Fn5EeqlZ6T0p1lO5g" id="(0.4827586206896552,0.967741935483871)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_o2sr4Vn5EeqlZ6T0p1lO5g" id="(0.52,0.625)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_jnOEYFn7EeqlZ6T0p1lO5g" type="ControlFlow_Edge" source="_zDj98Fn4EeqlZ6T0p1lO5g" target="_p6PzkVn5EeqlZ6T0p1lO5g">
+    <children xmi:type="notation:DecorationNode" xmi:id="_jnOEY1n7EeqlZ6T0p1lO5g" type="ControlFlow_NameLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_kiW28Vn7EeqlZ6T0p1lO5g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jnOEZFn7EeqlZ6T0p1lO5g" x="-33" y="17"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jnOEZVn7EeqlZ6T0p1lO5g" type="ControlFlow_WeightLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_kign8Fn7EeqlZ6T0p1lO5g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jnOEZln7EeqlZ6T0p1lO5g" x="-1" y="18"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jnOEZ1n7EeqlZ6T0p1lO5g" type="ControlFlow_GuardLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_kipx4Fn7EeqlZ6T0p1lO5g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jnOEaFn7EeqlZ6T0p1lO5g" x="33" y="19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_jnOEaVn7EeqlZ6T0p1lO5g" type="ControlFlow_StereotypeLabel">
+      <styles xmi:type="notation:BooleanValueStyle" xmi:id="_kipx4Vn7EeqlZ6T0p1lO5g" name="IS_UPDATED_POSITION" booleanValue="true"/>
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_jnOEaln7EeqlZ6T0p1lO5g" y="-19"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_jnOEYVn7EeqlZ6T0p1lO5g"/>
+    <element xmi:type="uml:ControlFlow" href="校验发送文件.uml#_jnETYFn7EeqlZ6T0p1lO5g"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_jnOEYln7EeqlZ6T0p1lO5g" points="[375, 332, -643984, -643984]$[153, 334, -643984, -643984]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jnXOUFn7EeqlZ6T0p1lO5g" id="(0.03392150897474953,0.45104370099217717)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jnXOUVn7EeqlZ6T0p1lO5g" id="(0.964607464607465,0.5155478058703876)"/>
+  </edges>
+</notation:Diagram>

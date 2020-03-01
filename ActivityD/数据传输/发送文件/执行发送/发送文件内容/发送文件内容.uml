@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_z8M-gFnqEeqJjbUVxNn-GA" name="发送文件内容">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_z9PgUFnqEeqJjbUVxNn-GA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_z8y0YFnqEeqJjbUVxNn-GA" name="发送文件内容" node="_MfsF8FnsEeqlZ6T0p1lO5g _IpRYkFntEeqlZ6T0p1lO5g _7QhZUFntEeqlZ6T0p1lO5g _Bm7hwFnuEeqlZ6T0p1lO5g _GwxwcFnuEeqlZ6T0p1lO5g _Kjmh0FnuEeqlZ6T0p1lO5g _wnH8QFnuEeqlZ6T0p1lO5g _PWFSAFnxEeqlZ6T0p1lO5g">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_NQF9QFnuEeqlZ6T0p1lO5g" target="_PWFSAFnxEeqlZ6T0p1lO5g" source="_MfsF8FnsEeqlZ6T0p1lO5g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_PSzb4FnuEeqlZ6T0p1lO5g" target="_7QhZUFntEeqlZ6T0p1lO5g" source="_IpRYkFntEeqlZ6T0p1lO5g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_QlsnIFnuEeqlZ6T0p1lO5g" name="true" target="_Bm7hwFnuEeqlZ6T0p1lO5g" source="_7QhZUFntEeqlZ6T0p1lO5g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_SN_aoFnuEeqlZ6T0p1lO5g" target="_GwxwcFnuEeqlZ6T0p1lO5g" source="_Bm7hwFnuEeqlZ6T0p1lO5g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_TIbCkFnuEeqlZ6T0p1lO5g" target="_Kjmh0FnuEeqlZ6T0p1lO5g" source="_GwxwcFnuEeqlZ6T0p1lO5g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_VxL0kFnuEeqlZ6T0p1lO5g" name="false" target="_wnH8QFnuEeqlZ6T0p1lO5g" source="_7QhZUFntEeqlZ6T0p1lO5g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_1llaUFnuEeqlZ6T0p1lO5g" target="_Kjmh0FnuEeqlZ6T0p1lO5g" source="_wnH8QFnuEeqlZ6T0p1lO5g"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_VhOloFnxEeqlZ6T0p1lO5g" target="_IpRYkFntEeqlZ6T0p1lO5g" source="_PWFSAFnxEeqlZ6T0p1lO5g"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_MfsF8FnsEeqlZ6T0p1lO5g" name="客户端请求" outgoing="_NQF9QFnuEeqlZ6T0p1lO5g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_IpRYkFntEeqlZ6T0p1lO5g" name="获取该终端下的待发送文件" incoming="_VhOloFnxEeqlZ6T0p1lO5g" outgoing="_PSzb4FnuEeqlZ6T0p1lO5g"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_7QhZUFntEeqlZ6T0p1lO5g" name="记录是否存在" incoming="_PSzb4FnuEeqlZ6T0p1lO5g" outgoing="_QlsnIFnuEeqlZ6T0p1lO5g _VxL0kFnuEeqlZ6T0p1lO5g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Bm7hwFnuEeqlZ6T0p1lO5g" name="读取文件内容" incoming="_QlsnIFnuEeqlZ6T0p1lO5g" outgoing="_SN_aoFnuEeqlZ6T0p1lO5g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_GwxwcFnuEeqlZ6T0p1lO5g" name="发回消息及数据" incoming="_SN_aoFnuEeqlZ6T0p1lO5g" outgoing="_TIbCkFnuEeqlZ6T0p1lO5g"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_Kjmh0FnuEeqlZ6T0p1lO5g" name="结束" incoming="_TIbCkFnuEeqlZ6T0p1lO5g _1llaUFnuEeqlZ6T0p1lO5g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_wnH8QFnuEeqlZ6T0p1lO5g" name="发回消息未找到" incoming="_VxL0kFnuEeqlZ6T0p1lO5g" outgoing="_1llaUFnuEeqlZ6T0p1lO5g"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_PWFSAFnxEeqlZ6T0p1lO5g" name="解析消息" incoming="_NQF9QFnuEeqlZ6T0p1lO5g" outgoing="_VhOloFnxEeqlZ6T0p1lO5g"/>
+  </packagedElement>
+</uml:Model>
