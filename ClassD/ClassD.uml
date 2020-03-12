@@ -60,6 +60,11 @@
           <type xmi:type="uml:Interface" href="../../CDWXClassModel/java.uml#_1_MIZ-GMEeiScrMAsbkENg"/>
         </ownedParameter>
       </ownedOperation>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_rtAlsGRBEeq3kqCHksBO9A" name="CopyOf_getClientAll_2">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_rtAlsWRBEeq3kqCHksBO9A" name="clients" direction="return">
+          <type xmi:type="uml:Interface" href="../../CDWXClassModel/java.uml#_1_MIZ-GMEeiScrMAsbkENg"/>
+        </ownedParameter>
+      </ownedOperation>
     </packagedElement>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_ATGdUFh4EeqGSK5hdWnsSg" client="_NjUGQFhkEeqGSK5hdWnsSg" supplier="_bbsD8FhnEeqGSK5hdWnsSg"/>
     <packagedElement xmi:type="uml:Class" xmi:id="_3Y0_EFh5EeqGSK5hdWnsSg" name="downloadFileService">
