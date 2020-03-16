@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_YwNmcGdgEeqzHfmdzRlV2A" name="hdfs-read">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_YxKBoGdgEeqzHfmdzRlV2A">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_YweFIGdgEeqzHfmdzRlV2A" name="HDFS读数据流程">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_MDWnYGdiEeqzHfmdzRlV2A" name="" type="_YweFIGdgEeqzHfmdzRlV2A"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Yf3LYGdiEeqzHfmdzRlV2A" name="" type="_YweFIGdgEeqzHfmdzRlV2A"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ZOdWwWdiEeqzHfmdzRlV2A" name="" type="_YweFIGdgEeqzHfmdzRlV2A"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_7rSXUWdiEeqzHfmdzRlV2A" name="" type="_YweFIGdgEeqzHfmdzRlV2A"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8GIgQWdiEeqzHfmdzRlV2A" name="" type="_YweFIGdgEeqzHfmdzRlV2A"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_G_PCsGdhEeqzHfmdzRlV2A" name="Client" coveredBy="_3sRZgGdhEeqzHfmdzRlV2A _7ijukWdhEeqzHfmdzRlV2A _nCu-8GdiEeqzHfmdzRlV2A _ux9UcGdiEeqzHfmdzRlV2A _xFMiYGdiEeqzHfmdzRlV2A _6iDeYGdiEeqzHfmdzRlV2A _6iDeYWdiEeqzHfmdzRlV2A"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_HSWL8GdhEeqzHfmdzRlV2A" name="DN1" coveredBy="_nCu-8WdiEeqzHfmdzRlV2A"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_HjgNYGdhEeqzHfmdzRlV2A" name="NN" coveredBy="_3sRZgWdhEeqzHfmdzRlV2A _7ijukGdhEeqzHfmdzRlV2A"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_yS7WQGdhEeqzHfmdzRlV2A" name="DN2" coveredBy="_ux9UcWdiEeqzHfmdzRlV2A"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_MDWAUGdiEeqzHfmdzRlV2A" name="" represents="_MDWnYGdiEeqzHfmdzRlV2A"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_VimwEGdiEeqzHfmdzRlV2A" name="DN3" coveredBy="_xFMiYWdiEeqzHfmdzRlV2A"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_Yf19QGdiEeqzHfmdzRlV2A" name="" represents="_Yf3LYGdiEeqzHfmdzRlV2A"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_ZOdWwGdiEeqzHfmdzRlV2A" name="" represents="_ZOdWwWdiEeqzHfmdzRlV2A"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_7rSXUGdiEeqzHfmdzRlV2A" name="" represents="_7rSXUWdiEeqzHfmdzRlV2A"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_8GIgQGdiEeqzHfmdzRlV2A" name="" represents="_8GIgQWdiEeqzHfmdzRlV2A"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3sRZgGdhEeqzHfmdzRlV2A" name="Message5SendEvent" covered="_G_PCsGdhEeqzHfmdzRlV2A" message="_3sQLYGdhEeqzHfmdzRlV2A"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_3sRZgWdhEeqzHfmdzRlV2A" name="Message5ReceiveEvent" covered="_HjgNYGdhEeqzHfmdzRlV2A" message="_3sQLYGdhEeqzHfmdzRlV2A"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_7ijukGdhEeqzHfmdzRlV2A" name="Message8SendEvent" covered="_HjgNYGdhEeqzHfmdzRlV2A" message="_7ih5YGdhEeqzHfmdzRlV2A"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_7ijukWdhEeqzHfmdzRlV2A" name="Message8ReceiveEvent" covered="_G_PCsGdhEeqzHfmdzRlV2A" message="_7ih5YGdhEeqzHfmdzRlV2A"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_nCu-8GdiEeqzHfmdzRlV2A" name="Message18SendEvent" covered="_G_PCsGdhEeqzHfmdzRlV2A" message="_nCtw0GdiEeqzHfmdzRlV2A"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_nCu-8WdiEeqzHfmdzRlV2A" name="Message18ReceiveEvent" covered="_HSWL8GdhEeqzHfmdzRlV2A" message="_nCtw0GdiEeqzHfmdzRlV2A"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ux9UcGdiEeqzHfmdzRlV2A" name="Message21SendEvent" covered="_G_PCsGdhEeqzHfmdzRlV2A" message="_ux8GUGdiEeqzHfmdzRlV2A"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ux9UcWdiEeqzHfmdzRlV2A" name="Message21ReceiveEvent" covered="_yS7WQGdhEeqzHfmdzRlV2A" message="_ux8GUGdiEeqzHfmdzRlV2A"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_xFMiYGdiEeqzHfmdzRlV2A" name="Message24SendEvent" covered="_G_PCsGdhEeqzHfmdzRlV2A" message="_xFLUQGdiEeqzHfmdzRlV2A"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_xFMiYWdiEeqzHfmdzRlV2A" name="Message24ReceiveEvent" covered="_VimwEGdiEeqzHfmdzRlV2A" message="_xFLUQGdiEeqzHfmdzRlV2A"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_6iDeYGdiEeqzHfmdzRlV2A" name="Message27SendEvent" covered="_G_PCsGdhEeqzHfmdzRlV2A" message="_6iCQQGdiEeqzHfmdzRlV2A"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_6iDeYWdiEeqzHfmdzRlV2A" name="Message27ReceiveEvent" covered="_G_PCsGdhEeqzHfmdzRlV2A" message="_6iCQQGdiEeqzHfmdzRlV2A"/>
+    <message xmi:type="uml:Message" xmi:id="_3sQLYGdhEeqzHfmdzRlV2A" name="1:getFile(fileInfo)" messageSort="asynchCall" receiveEvent="_3sRZgWdhEeqzHfmdzRlV2A" sendEvent="_3sRZgGdhEeqzHfmdzRlV2A"/>
+    <message xmi:type="uml:Message" xmi:id="_7ih5YGdhEeqzHfmdzRlV2A" name="2:returnFileBlkStorageInfo()" messageSort="asynchCall" receiveEvent="_7ijukWdhEeqzHfmdzRlV2A" sendEvent="_7ijukGdhEeqzHfmdzRlV2A"/>
+    <message xmi:type="uml:Message" xmi:id="_nCtw0GdiEeqzHfmdzRlV2A" name="3.1:getBlk1()" messageSort="asynchCall" receiveEvent="_nCu-8WdiEeqzHfmdzRlV2A" sendEvent="_nCu-8GdiEeqzHfmdzRlV2A"/>
+    <message xmi:type="uml:Message" xmi:id="_ux8GUGdiEeqzHfmdzRlV2A" name="3.2:getBlk2()" messageSort="asynchCall" receiveEvent="_ux9UcWdiEeqzHfmdzRlV2A" sendEvent="_ux9UcGdiEeqzHfmdzRlV2A"/>
+    <message xmi:type="uml:Message" xmi:id="_xFLUQGdiEeqzHfmdzRlV2A" name="3.3:getBlk3()" messageSort="asynchCall" receiveEvent="_xFMiYWdiEeqzHfmdzRlV2A" sendEvent="_xFMiYGdiEeqzHfmdzRlV2A"/>
+    <message xmi:type="uml:Message" xmi:id="_6iCQQGdiEeqzHfmdzRlV2A" name="4:merge()" messageSort="asynchCall" receiveEvent="_6iDeYWdiEeqzHfmdzRlV2A" sendEvent="_6iDeYGdiEeqzHfmdzRlV2A"/>
+  </packagedElement>
+</uml:Model>
