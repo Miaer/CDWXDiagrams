@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_0NQPYGcpEeqtAP_odoN-tw" name="hdfs-upload">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_0N03IGcpEeqtAP_odoN-tw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_0NbOgGcpEeqtAP_odoN-tw" name="HDFS写数据流程">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Hujr0GcqEeqtAP_odoN-tw" name="" type="_0NbOgGcpEeqtAP_odoN-tw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_zLMVoGdOEeqzHfmdzRlV2A" name="" type="_0NbOgGcpEeqtAP_odoN-tw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_zsMw8WdOEeqzHfmdzRlV2A" name="" type="_0NbOgGcpEeqtAP_odoN-tw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_9f5fcGcpEeqtAP_odoN-tw" name="Client" coveredBy="_fXlj4GcwEeqtAP_odoN-tw _5FUGUGcwEeqtAP_odoN-tw _nva24GdDEeqtAP_odoN-tw _lnP0AGdEEeqtAP_odoN-tw _37N6oGdEEeqtAP_odoN-tw _DKlWEGdFEeqtAP_odoN-tw _ux8zkGdFEeqtAP_odoN-tw _DBpAAGdGEeqtAP_odoN-tw _Zc8vcGdGEeqtAP_odoN-tw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_A_cvgGcqEeqtAP_odoN-tw" name="NameNode" coveredBy="_5FUtYGcwEeqtAP_odoN-tw _lnQbEGdEEeqtAP_odoN-tw _37NTkGdEEeqtAP_odoN-tw _kkGDAGdGEeqtAP_odoN-tw _mToG8GdGEeqtAP_odoN-tw _nqJ1AGdGEeqtAP_odoN-tw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_DSgXQGcqEeqtAP_odoN-tw" name="DataNode" coveredBy="_GDHuoWczEeqtAP_odoN-tw _bykdoGczEeqtAP_odoN-tw _KMMXoWdFEeqtAP_odoN-tw _iJrrgGdFEeqtAP_odoN-tw _mmMTEGdFEeqtAP_odoN-tw _sTBTAGdFEeqtAP_odoN-tw _HyqfAGdGEeqtAP_odoN-tw _KJGx8GdGEeqtAP_odoN-tw _UZQMEGdGEeqtAP_odoN-tw _W8Mp8GdGEeqtAP_odoN-tw _mTnf4GdGEeqtAP_odoN-tw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_FKyukGcqEeqtAP_odoN-tw" name="DataNode" coveredBy="_fXlj4WcwEeqtAP_odoN-tw _bykdoWczEeqtAP_odoN-tw _nva24WdDEeqtAP_odoN-tw _DKl9IGdFEeqtAP_odoN-tw _KMMXoGdFEeqtAP_odoN-tw _sTB6EGdFEeqtAP_odoN-tw _ux8MgGdFEeqtAP_odoN-tw _DBpnEGdGEeqtAP_odoN-tw _Hyp38GdGEeqtAP_odoN-tw _W8NRAGdGEeqtAP_odoN-tw _Zc8IYWdGEeqtAP_odoN-tw _kkFb8GdGEeqtAP_odoN-tw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_HujEwGcqEeqtAP_odoN-tw" name="" represents="_Hujr0GcqEeqtAP_odoN-tw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_wYqCwGcxEeqtAP_odoN-tw" name="DataNode" coveredBy="_GDHuoGczEeqtAP_odoN-tw _iJrrgWdFEeqtAP_odoN-tw _mmLsAGdFEeqtAP_odoN-tw _KJHZAGdGEeqtAP_odoN-tw _UZPlAGdGEeqtAP_odoN-tw _nqJN8GdGEeqtAP_odoN-tw"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_zLIEMGdOEeqzHfmdzRlV2A" name="" represents="_zLMVoGdOEeqzHfmdzRlV2A"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_zsMw8GdOEeqzHfmdzRlV2A" name="" represents="_zsMw8WdOEeqzHfmdzRlV2A"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_fXlj4GcwEeqtAP_odoN-tw" name="Message10SendEvent" covered="_9f5fcGcpEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_fXlj4WcwEeqtAP_odoN-tw" name="Message10ReceiveEvent" covered="_FKyukGcqEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5FUGUGcwEeqtAP_odoN-tw" name="Message10SendEvent" covered="_9f5fcGcpEeqtAP_odoN-tw" message="_5FS4MGcwEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_5FUtYGcwEeqtAP_odoN-tw" name="Message10ReceiveEvent" covered="_A_cvgGcqEeqtAP_odoN-tw" message="_5FS4MGcwEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_GDHuoGczEeqtAP_odoN-tw" name="Message21SendEvent" covered="_wYqCwGcxEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_GDHuoWczEeqtAP_odoN-tw" name="Message21ReceiveEvent" covered="_DSgXQGcqEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bykdoGczEeqtAP_odoN-tw" name="Message24SendEvent" covered="_DSgXQGcqEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_bykdoWczEeqtAP_odoN-tw" name="Message24ReceiveEvent" covered="_FKyukGcqEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_nva24GdDEeqtAP_odoN-tw" name="Message30SendEvent" covered="_9f5fcGcpEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_nva24WdDEeqtAP_odoN-tw" name="Message30ReceiveEvent" covered="_FKyukGcqEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lnP0AGdEEeqtAP_odoN-tw" name="Message19SendEvent" covered="_9f5fcGcpEeqtAP_odoN-tw" message="_lnPM8GdEEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_lnQbEGdEEeqtAP_odoN-tw" name="Message19ReceiveEvent" covered="_A_cvgGcqEeqtAP_odoN-tw" message="_lnPM8GdEEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_37NTkGdEEeqtAP_odoN-tw" name="Message22SendEvent" covered="_A_cvgGcqEeqtAP_odoN-tw" message="_37MsgGdEEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_37N6oGdEEeqtAP_odoN-tw" name="Message22ReceiveEvent" covered="_9f5fcGcpEeqtAP_odoN-tw" message="_37MsgGdEEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_DKlWEGdFEeqtAP_odoN-tw" name="Message25SendEvent" covered="_9f5fcGcpEeqtAP_odoN-tw" message="_DKkH8GdFEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_DKl9IGdFEeqtAP_odoN-tw" name="Message25ReceiveEvent" covered="_FKyukGcqEeqtAP_odoN-tw" message="_DKkH8GdFEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_KMMXoGdFEeqtAP_odoN-tw" name="Message28SendEvent" covered="_FKyukGcqEeqtAP_odoN-tw" message="_KMLJgGdFEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_KMMXoWdFEeqtAP_odoN-tw" name="Message28ReceiveEvent" covered="_DSgXQGcqEeqtAP_odoN-tw" message="_KMLJgGdFEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_iJrrgGdFEeqtAP_odoN-tw" name="Message31SendEvent" covered="_DSgXQGcqEeqtAP_odoN-tw" message="_iJqdYGdFEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_iJrrgWdFEeqtAP_odoN-tw" name="Message31ReceiveEvent" covered="_wYqCwGcxEeqtAP_odoN-tw" message="_iJqdYGdFEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mmLsAGdFEeqtAP_odoN-tw" name="Message34SendEvent" covered="_wYqCwGcxEeqtAP_odoN-tw" message="_mmKd4GdFEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mmMTEGdFEeqtAP_odoN-tw" name="Message34ReceiveEvent" covered="_DSgXQGcqEeqtAP_odoN-tw" message="_mmKd4GdFEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_sTBTAGdFEeqtAP_odoN-tw" name="Message37SendEvent" covered="_DSgXQGcqEeqtAP_odoN-tw" message="_sTAE4GdFEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_sTB6EGdFEeqtAP_odoN-tw" name="Message37ReceiveEvent" covered="_FKyukGcqEeqtAP_odoN-tw" message="_sTAE4GdFEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ux8MgGdFEeqtAP_odoN-tw" name="Message40SendEvent" covered="_FKyukGcqEeqtAP_odoN-tw" message="_ux6-YGdFEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ux8zkGdFEeqtAP_odoN-tw" name="Message40ReceiveEvent" covered="_9f5fcGcpEeqtAP_odoN-tw" message="_ux6-YGdFEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_DBpAAGdGEeqtAP_odoN-tw" name="Message43SendEvent" covered="_9f5fcGcpEeqtAP_odoN-tw" message="_DBnx4GdGEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_DBpnEGdGEeqtAP_odoN-tw" name="Message43ReceiveEvent" covered="_FKyukGcqEeqtAP_odoN-tw" message="_DBnx4GdGEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Hyp38GdGEeqtAP_odoN-tw" name="Message46SendEvent" covered="_FKyukGcqEeqtAP_odoN-tw" message="_Hyop0GdGEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_HyqfAGdGEeqtAP_odoN-tw" name="Message46ReceiveEvent" covered="_DSgXQGcqEeqtAP_odoN-tw" message="_Hyop0GdGEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_KJGx8GdGEeqtAP_odoN-tw" name="Message49SendEvent" covered="_DSgXQGcqEeqtAP_odoN-tw" message="_KJFj0GdGEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_KJHZAGdGEeqtAP_odoN-tw" name="Message49ReceiveEvent" covered="_wYqCwGcxEeqtAP_odoN-tw" message="_KJFj0GdGEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UZPlAGdGEeqtAP_odoN-tw" name="Message52SendEvent" covered="_wYqCwGcxEeqtAP_odoN-tw" message="_UZNv0GdGEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_UZQMEGdGEeqtAP_odoN-tw" name="Message52ReceiveEvent" covered="_DSgXQGcqEeqtAP_odoN-tw" message="_UZNv0GdGEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_W8Mp8GdGEeqtAP_odoN-tw" name="Message55SendEvent" covered="_DSgXQGcqEeqtAP_odoN-tw" message="_W8Lb0GdGEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_W8NRAGdGEeqtAP_odoN-tw" name="Message55ReceiveEvent" covered="_FKyukGcqEeqtAP_odoN-tw" message="_W8Lb0GdGEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Zc8IYWdGEeqtAP_odoN-tw" name="Message58SendEvent" covered="_FKyukGcqEeqtAP_odoN-tw" message="_Zc8IYGdGEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_Zc8vcGdGEeqtAP_odoN-tw" name="Message58ReceiveEvent" covered="_9f5fcGcpEeqtAP_odoN-tw" message="_Zc8IYGdGEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kkFb8GdGEeqtAP_odoN-tw" name="Message61SendEvent" covered="_FKyukGcqEeqtAP_odoN-tw" message="_kkEN0GdGEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kkGDAGdGEeqtAP_odoN-tw" name="Message61ReceiveEvent" covered="_A_cvgGcqEeqtAP_odoN-tw" message="_kkEN0GdGEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mTnf4GdGEeqtAP_odoN-tw" name="Message64SendEvent" covered="_DSgXQGcqEeqtAP_odoN-tw" message="_mTmRwGdGEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mToG8GdGEeqtAP_odoN-tw" name="Message64ReceiveEvent" covered="_A_cvgGcqEeqtAP_odoN-tw" message="_mTmRwGdGEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_nqJN8GdGEeqtAP_odoN-tw" name="Message67SendEvent" covered="_wYqCwGcxEeqtAP_odoN-tw" message="_nqH_0GdGEeqtAP_odoN-tw"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_nqJ1AGdGEeqtAP_odoN-tw" name="Message67ReceiveEvent" covered="_A_cvgGcqEeqtAP_odoN-tw" message="_nqH_0GdGEeqtAP_odoN-tw"/>
+    <message xmi:type="uml:Message" xmi:id="_5FS4MGcwEeqtAP_odoN-tw" name="1:create()" messageSort="createMessage" receiveEvent="_5FUtYGcwEeqtAP_odoN-tw" sendEvent="_5FUGUGcwEeqtAP_odoN-tw"/>
+    <message xmi:type="uml:Message" xmi:id="_lnPM8GdEEeqtAP_odoN-tw" name="2:upfileblk(fn,fblknu,bkupnu)" messageSort="asynchCall" receiveEvent="_lnQbEGdEEeqtAP_odoN-tw" sendEvent="_lnP0AGdEEeqtAP_odoN-tw"/>
+    <message xmi:type="uml:Message" xmi:id="_37MsgGdEEeqtAP_odoN-tw" name="3:result(dnip)" messageSort="asynchCall" receiveEvent="_37N6oGdEEeqtAP_odoN-tw" sendEvent="_37NTkGdEEeqtAP_odoN-tw"/>
+    <message xmi:type="uml:Message" xmi:id="_DKkH8GdFEeqtAP_odoN-tw" name="4:createPipeline" messageSort="asynchCall" receiveEvent="_DKl9IGdFEeqtAP_odoN-tw" sendEvent="_DKlWEGdFEeqtAP_odoN-tw"/>
+    <message xmi:type="uml:Message" xmi:id="_KMLJgGdFEeqtAP_odoN-tw" name="4.1:createPipeline" messageSort="asynchCall" receiveEvent="_KMMXoWdFEeqtAP_odoN-tw" sendEvent="_KMMXoGdFEeqtAP_odoN-tw"/>
+    <message xmi:type="uml:Message" xmi:id="_iJqdYGdFEeqtAP_odoN-tw" name="4.2:createPipeline" messageSort="asynchCall" receiveEvent="_iJrrgWdFEeqtAP_odoN-tw" sendEvent="_iJrrgGdFEeqtAP_odoN-tw"/>
+    <message xmi:type="uml:Message" xmi:id="_mmKd4GdFEeqtAP_odoN-tw" name="4.3:pipeOk" messageSort="asynchCall" receiveEvent="_mmMTEGdFEeqtAP_odoN-tw" sendEvent="_mmLsAGdFEeqtAP_odoN-tw"/>
+    <message xmi:type="uml:Message" xmi:id="_sTAE4GdFEeqtAP_odoN-tw" name="4.4:pipeOk" messageSort="asynchCall" receiveEvent="_sTB6EGdFEeqtAP_odoN-tw" sendEvent="_sTBTAGdFEeqtAP_odoN-tw"/>
+    <message xmi:type="uml:Message" xmi:id="_ux6-YGdFEeqtAP_odoN-tw" name="4.5:pipeOk" messageSort="asynchCall" receiveEvent="_ux8zkGdFEeqtAP_odoN-tw" sendEvent="_ux8MgGdFEeqtAP_odoN-tw"/>
+    <message xmi:type="uml:Message" xmi:id="_DBnx4GdGEeqtAP_odoN-tw" name="5:pack" messageSort="asynchCall" receiveEvent="_DBpnEGdGEeqtAP_odoN-tw" sendEvent="_DBpAAGdGEeqtAP_odoN-tw"/>
+    <message xmi:type="uml:Message" xmi:id="_Hyop0GdGEeqtAP_odoN-tw" name="5.1:pack" messageSort="asynchCall" receiveEvent="_HyqfAGdGEeqtAP_odoN-tw" sendEvent="_Hyp38GdGEeqtAP_odoN-tw"/>
+    <message xmi:type="uml:Message" xmi:id="_KJFj0GdGEeqtAP_odoN-tw" name="5.2:pack" messageSort="asynchCall" receiveEvent="_KJHZAGdGEeqtAP_odoN-tw" sendEvent="_KJGx8GdGEeqtAP_odoN-tw"/>
+    <message xmi:type="uml:Message" xmi:id="_UZNv0GdGEeqtAP_odoN-tw" name="5.3:ack" messageSort="asynchCall" receiveEvent="_UZQMEGdGEeqtAP_odoN-tw" sendEvent="_UZPlAGdGEeqtAP_odoN-tw"/>
+    <message xmi:type="uml:Message" xmi:id="_W8Lb0GdGEeqtAP_odoN-tw" name="5.4:ack" messageSort="asynchCall" receiveEvent="_W8NRAGdGEeqtAP_odoN-tw" sendEvent="_W8Mp8GdGEeqtAP_odoN-tw"/>
+    <message xmi:type="uml:Message" xmi:id="_Zc8IYGdGEeqtAP_odoN-tw" name="5.5:ack" messageSort="asynchCall" receiveEvent="_Zc8vcGdGEeqtAP_odoN-tw" sendEvent="_Zc8IYWdGEeqtAP_odoN-tw"/>
+    <message xmi:type="uml:Message" xmi:id="_kkEN0GdGEeqtAP_odoN-tw" name="0:init" messageSort="asynchCall" receiveEvent="_kkGDAGdGEeqtAP_odoN-tw" sendEvent="_kkFb8GdGEeqtAP_odoN-tw"/>
+    <message xmi:type="uml:Message" xmi:id="_mTmRwGdGEeqtAP_odoN-tw" name="0:init" messageSort="asynchCall" receiveEvent="_mToG8GdGEeqtAP_odoN-tw" sendEvent="_mTnf4GdGEeqtAP_odoN-tw"/>
+    <message xmi:type="uml:Message" xmi:id="_nqH_0GdGEeqtAP_odoN-tw" name="0:init" messageSort="asynchCall" receiveEvent="_nqJ1AGdGEeqtAP_odoN-tw" sendEvent="_nqJN8GdGEeqtAP_odoN-tw"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_qYCZkGcwEeqtAP_odoN-tw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qYDnsGcwEeqtAP_odoN-tw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>

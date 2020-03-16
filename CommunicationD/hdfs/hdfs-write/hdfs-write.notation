@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_0NdqwGcpEeqtAP_odoN-tw" type="PapyrusUMLCommunicationDiagram" name="Communication Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_0NdqwWcpEeqtAP_odoN-tw" type="Interaction_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_0NdqwmcpEeqtAP_odoN-tw" type="Interaction_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_0Ndqw2cpEeqtAP_odoN-tw" type="Interaction_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_0NdqxGcpEeqtAP_odoN-tw" x="50"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_0NdqxWcpEeqtAP_odoN-tw" type="Interaction_SubfragmentCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_9f8iwGcpEeqtAP_odoN-tw" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_9f8iwmcpEeqtAP_odoN-tw" type="Lifeline_NameLabel"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_9f8iw2cpEeqtAP_odoN-tw" type="Lifeline_FloatingNameLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_9f8ixGcpEeqtAP_odoN-tw" y="15"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="hdfs-write.uml#_9f5fcGcpEeqtAP_odoN-tw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9f8iwWcpEeqtAP_odoN-tw" x="173" y="151" width="147" height="107"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_A_gZ4GcqEeqtAP_odoN-tw" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_A_gZ4mcqEeqtAP_odoN-tw" type="Lifeline_NameLabel"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_A_gZ42cqEeqtAP_odoN-tw" type="Lifeline_FloatingNameLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_A_gZ5GcqEeqtAP_odoN-tw" y="15"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="hdfs-write.uml#_A_cvgGcqEeqtAP_odoN-tw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_A_gZ4WcqEeqtAP_odoN-tw" x="531" y="143" width="103" height="115"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_DSjakGcqEeqtAP_odoN-tw" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_DSjakmcqEeqtAP_odoN-tw" type="Lifeline_NameLabel"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_DSjak2cqEeqtAP_odoN-tw" type="Lifeline_FloatingNameLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_DSjalGcqEeqtAP_odoN-tw" y="15"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="hdfs-write.uml#_DSgXQGcqEeqtAP_odoN-tw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DSjakWcqEeqtAP_odoN-tw" x="168" y="479" width="238" height="45"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_FK2Y8GcqEeqtAP_odoN-tw" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_FK2Y8mcqEeqtAP_odoN-tw" type="Lifeline_NameLabel"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_FK2Y82cqEeqtAP_odoN-tw" type="Lifeline_FloatingNameLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_FK2Y9GcqEeqtAP_odoN-tw" y="15"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="hdfs-write.uml#_FKyukGcqEeqtAP_odoN-tw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FK2Y8WcqEeqtAP_odoN-tw" x="170" y="362" width="233" height="46"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_wYrQ4GcxEeqtAP_odoN-tw" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_wYr38GcxEeqtAP_odoN-tw" type="Lifeline_NameLabel"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_wYr38WcxEeqtAP_odoN-tw" type="Lifeline_FloatingNameLabel">
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_wYr38mcxEeqtAP_odoN-tw" y="15"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="hdfs-write.uml#_wYqCwGcxEeqtAP_odoN-tw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wYrQ4WcxEeqtAP_odoN-tw" x="169" y="582" width="235" height="50"/>
+      </children>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0NdqxmcpEeqtAP_odoN-tw"/>
+    </children>
+    <element xmi:type="uml:Interaction" href="hdfs-write.uml#_0NbOgGcpEeqtAP_odoN-tw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0Ndqx2cpEeqtAP_odoN-tw" x="7" y="10" width="862" height="693"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_0NdqyGcpEeqtAP_odoN-tw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_0NdqyWcpEeqtAP_odoN-tw"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_0NdqymcpEeqtAP_odoN-tw" diagramKindId="org.eclipse.papyrus.uml.diagram.communication">
+    <owner xmi:type="uml:Model" href="hdfs-write.uml#_0NQPYGcpEeqtAP_odoN-tw"/>
+  </styles>
+  <element xmi:type="uml:Interaction" href="hdfs-write.uml#_0NbOgGcpEeqtAP_odoN-tw"/>
+  <edges xmi:type="notation:Connector" xmi:id="_5FY-0GcwEeqtAP_odoN-tw" type="Path_Edge" source="_9f8iwGcpEeqtAP_odoN-tw" target="_A_gZ4GcqEeqtAP_odoN-tw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_5FY-02cwEeqtAP_odoN-tw" type="Path_MessageLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5FY-1GcwEeqtAP_odoN-tw" x="1" y="-23"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_5FY-1WcwEeqtAP_odoN-tw" type="Path_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_5FY-1mcwEeqtAP_odoN-tw" x="1" y="-53"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_5FY-0WcwEeqtAP_odoN-tw"/>
+    <element xmi:type="uml:Message" href="hdfs-write.uml#_5FS4MGcwEeqtAP_odoN-tw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_5FY-0mcwEeqtAP_odoN-tw" points="[2, 0, -241, -3]$[230, 4, -13, 1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5FjW4GcwEeqtAP_odoN-tw" id="(0.9494949494949495,0.102803738317757)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_5FjW4WcwEeqtAP_odoN-tw" id="(0.009708737864077669,0.16521739130434782)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_lnUFcGdEEeqtAP_odoN-tw" type="Path_Edge" source="_9f8iwGcpEeqtAP_odoN-tw" target="_A_gZ4GcqEeqtAP_odoN-tw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_lnUFc2dEEeqtAP_odoN-tw" type="Path_MessageLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lnUFdGdEEeqtAP_odoN-tw" x="8" y="17"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_lnUFdWdEEeqtAP_odoN-tw" type="Path_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_lnUFdmdEEeqtAP_odoN-tw" x="1" y="-53"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_lnUFcWdEEeqtAP_odoN-tw"/>
+    <element xmi:type="uml:Message" href="hdfs-write.uml#_lnPM8GdEEeqtAP_odoN-tw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_lnUFcmdEEeqtAP_odoN-tw" points="[2, 0, -227, -1]$[213, 3, -16, 2]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lncoUGdEEeqtAP_odoN-tw" id="(0.98989898989899,0.38317757009345793)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lncoUWdEEeqtAP_odoN-tw" id="(0.0,0.4260869565217391)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_37SMEGdEEeqtAP_odoN-tw" type="Path_Edge" source="_A_gZ4GcqEeqtAP_odoN-tw" target="_9f8iwGcpEeqtAP_odoN-tw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_37SME2dEEeqtAP_odoN-tw" type="Path_MessageLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_37SMFGdEEeqtAP_odoN-tw" x="-1" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_37SMFWdEEeqtAP_odoN-tw" type="Path_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_37SMFmdEEeqtAP_odoN-tw" x="1" y="-53"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_37SMEWdEEeqtAP_odoN-tw"/>
+    <element xmi:type="uml:Message" href="hdfs-write.uml#_37MsgGdEEeqtAP_odoN-tw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_37SMEmdEEeqtAP_odoN-tw" points="[-1, -1, 221, 4]$[-212, 3, 10, 8]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_37aH4GdEEeqtAP_odoN-tw" id="(0.009708737864077669,0.8869565217391304)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_37aH4WdEEeqtAP_odoN-tw" id="(0.9696969696969697,0.8878504672897196)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_DKpngGdFEeqtAP_odoN-tw" type="Path_Edge" source="_9f8iwGcpEeqtAP_odoN-tw" target="_FK2Y8GcqEeqtAP_odoN-tw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_DKpng2dFEeqtAP_odoN-tw" type="Path_MessageLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_DKpnhGdFEeqtAP_odoN-tw" x="-9" y="-11"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_DKpnhWdFEeqtAP_odoN-tw" type="Path_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_DKpnhmdFEeqtAP_odoN-tw" x="1" y="-53"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_DKpngWdFEeqtAP_odoN-tw"/>
+    <element xmi:type="uml:Message" href="hdfs-write.uml#_DKkH8GdFEeqtAP_odoN-tw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DKpngmdFEeqtAP_odoN-tw" points="[-1, 1, 0, -140]$[7, 151, 8, 10]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DKyKYGdFEeqtAP_odoN-tw" id="(0.047619047619047616,0.9626168224299065)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DKyKYWdFEeqtAP_odoN-tw" id="(0.04721030042918455,0.043478260869565216)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_KMQpEGdFEeqtAP_odoN-tw" type="Path_Edge" source="_FK2Y8GcqEeqtAP_odoN-tw" target="_DSjakGcqEeqtAP_odoN-tw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KMQpE2dFEeqtAP_odoN-tw" type="Path_MessageLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_KMQpFGdFEeqtAP_odoN-tw" x="-31" y="19"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KMQpFWdFEeqtAP_odoN-tw" type="Path_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_KMQpFmdFEeqtAP_odoN-tw" x="1" y="-53"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KMQpEWdFEeqtAP_odoN-tw"/>
+    <element xmi:type="uml:Message" href="hdfs-write.uml#_KMLJgGdFEeqtAP_odoN-tw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KMQpEmdFEeqtAP_odoN-tw" points="[0, 1, -2, -78]$[-10, 77, -12, -2]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KMaaEGdFEeqtAP_odoN-tw" id="(0.034334763948497854,0.9782608695652174)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KMaaEWdFEeqtAP_odoN-tw" id="(0.05042016806722689,0.24444444444444444)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_iJwkAGdFEeqtAP_odoN-tw" type="Path_Edge" source="_DSjakGcqEeqtAP_odoN-tw" target="_wYrQ4GcxEeqtAP_odoN-tw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_iJwkA2dFEeqtAP_odoN-tw" type="Path_MessageLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_iJwkBGdFEeqtAP_odoN-tw" x="-11" y="-2"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_iJwkBWdFEeqtAP_odoN-tw" type="Path_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_iJwkBmdFEeqtAP_odoN-tw" x="1" y="-53"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_iJwkAWdFEeqtAP_odoN-tw"/>
+    <element xmi:type="uml:Message" href="hdfs-write.uml#_iJqdYGdFEeqtAP_odoN-tw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_iJwkAmdFEeqtAP_odoN-tw" points="[0, 1, 0, -59]$[-5, 59, -5, -1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iJ5t8GdFEeqtAP_odoN-tw" id="(0.06302521008403361,0.9777777777777777)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_iJ5t8WdFEeqtAP_odoN-tw" id="(0.059574468085106386,0.02)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_mmQkgGdFEeqtAP_odoN-tw" type="Path_Edge" source="_wYrQ4GcxEeqtAP_odoN-tw" target="_DSjakGcqEeqtAP_odoN-tw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_mmQkg2dFEeqtAP_odoN-tw" type="Path_MessageLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mmQkhGdFEeqtAP_odoN-tw" x="18" y="11"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_mmQkhWdFEeqtAP_odoN-tw" type="Path_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mmQkhmdFEeqtAP_odoN-tw" x="1" y="-53"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_mmQkgWdFEeqtAP_odoN-tw"/>
+    <element xmi:type="uml:Message" href="hdfs-write.uml#_mmKd4GdFEeqtAP_odoN-tw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mmQkgmdFEeqtAP_odoN-tw" points="[0, -3, 0, 71]$[-59, -61, -59, 13]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mmaVgGdFEeqtAP_odoN-tw" id="(0.3191489361702128,0.06)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mmaVgWdFEeqtAP_odoN-tw" id="(0.31932773109243695,0.7111111111111111)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_sTGLgGdFEeqtAP_odoN-tw" type="Path_Edge" source="_DSjakGcqEeqtAP_odoN-tw" target="_FK2Y8GcqEeqtAP_odoN-tw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sTGLg2dFEeqtAP_odoN-tw" type="Path_MessageLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sTGLhGdFEeqtAP_odoN-tw" x="15" y="17"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sTGLhWdFEeqtAP_odoN-tw" type="Path_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sTGLhmdFEeqtAP_odoN-tw" x="1" y="-53"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_sTGLgWdFEeqtAP_odoN-tw"/>
+    <element xmi:type="uml:Message" href="hdfs-write.uml#_sTAE4GdFEeqtAP_odoN-tw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sTGLgmdFEeqtAP_odoN-tw" points="[-1, -4, 0, 85]$[-70, -76, -69, 13]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sTP8gGdFEeqtAP_odoN-tw" id="(0.3025210084033613,0.08888888888888889)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sTP8gWdFEeqtAP_odoN-tw" id="(0.296137339055794,0.6956521739130435)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_uyBsEGdFEeqtAP_odoN-tw" type="Path_Edge" source="_FK2Y8GcqEeqtAP_odoN-tw" target="_9f8iwGcpEeqtAP_odoN-tw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_uyBsE2dFEeqtAP_odoN-tw" type="Path_MessageLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_uyBsFGdFEeqtAP_odoN-tw" x="9" y="6"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_uyBsFWdFEeqtAP_odoN-tw" type="Path_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_uyBsFmdFEeqtAP_odoN-tw" x="1" y="-53"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_uyBsEWdFEeqtAP_odoN-tw"/>
+    <element xmi:type="uml:Message" href="hdfs-write.uml#_ux6-YGdFEeqtAP_odoN-tw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uyBsEmdFEeqtAP_odoN-tw" points="[0, -1, -2, 124]$[-4, -105, -6, 20]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uyMEIGdFEeqtAP_odoN-tw" id="(0.2832618025751073,0.021739130434782608)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uyMEIWdFEeqtAP_odoN-tw" id="(0.4421768707482993,0.8130841121495327)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_DBufkGdGEeqtAP_odoN-tw" type="Path_Edge" source="_9f8iwGcpEeqtAP_odoN-tw" target="_FK2Y8GcqEeqtAP_odoN-tw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_DBvGoGdGEeqtAP_odoN-tw" type="Path_MessageLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_DBvGoWdGEeqtAP_odoN-tw" x="-13" y="-7"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_DBvGomdGEeqtAP_odoN-tw" type="Path_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_DBvGo2dGEeqtAP_odoN-tw" x="1" y="-53"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_DBufkWdGEeqtAP_odoN-tw"/>
+    <element xmi:type="uml:Message" href="hdfs-write.uml#_DBnx4GdGEeqtAP_odoN-tw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DBufkmdGEeqtAP_odoN-tw" points="[-1, 3, 1, -111]$[2, 107, 4, -7]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DB6FwGdGEeqtAP_odoN-tw" id="(0.8571428571428571,0.9719626168224299)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DB6FwWdGEeqtAP_odoN-tw" id="(0.5450643776824035,0.15217391304347827)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_Hyv-kGdGEeqtAP_odoN-tw" type="Path_Edge" source="_FK2Y8GcqEeqtAP_odoN-tw" target="_DSjakGcqEeqtAP_odoN-tw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Hyv-k2dGEeqtAP_odoN-tw" type="Path_MessageLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Hyv-lGdGEeqtAP_odoN-tw" x="-12" y="-11"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Hyv-lWdGEeqtAP_odoN-tw" type="Path_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_Hyv-lmdGEeqtAP_odoN-tw" x="1" y="-53"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_Hyv-kWdGEeqtAP_odoN-tw"/>
+    <element xmi:type="uml:Message" href="hdfs-write.uml#_Hyop0GdGEeqtAP_odoN-tw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Hyv-kmdGEeqtAP_odoN-tw" points="[-1, 1, 0, -74]$[2, 72, 3, -3]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Hy6WoGdGEeqtAP_odoN-tw" id="(0.6094420600858369,0.9782608695652174)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Hy6WoWdGEeqtAP_odoN-tw" id="(0.6008403361344538,0.06666666666666667)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_KJM4kGdGEeqtAP_odoN-tw" type="Path_Edge" source="_DSjakGcqEeqtAP_odoN-tw" target="_wYrQ4GcxEeqtAP_odoN-tw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KJM4k2dGEeqtAP_odoN-tw" type="Path_MessageLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_KJM4lGdGEeqtAP_odoN-tw" x="-15" y="-2"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KJM4lWdGEeqtAP_odoN-tw" type="Path_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_KJM4lmdGEeqtAP_odoN-tw" x="1" y="-53"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_KJM4kWdGEeqtAP_odoN-tw"/>
+    <element xmi:type="uml:Message" href="hdfs-write.uml#_KJFj0GdGEeqtAP_odoN-tw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KJM4kmdGEeqtAP_odoN-tw" points="[-1, 2, 0, -69]$[28, 60, 29, -11]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KJX3sGdGEeqtAP_odoN-tw" id="(0.6596638655462185,0.9555555555555556)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KJX3sWdGEeqtAP_odoN-tw" id="(0.6595744680851063,0.22)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_UZVroGdGEeqtAP_odoN-tw" type="Path_Edge" source="_wYrQ4GcxEeqtAP_odoN-tw" target="_DSjakGcqEeqtAP_odoN-tw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_UZVro2dGEeqtAP_odoN-tw" type="Path_MessageLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_UZVrpGdGEeqtAP_odoN-tw" x="16" y="9"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_UZVrpWdGEeqtAP_odoN-tw" type="Path_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_UZVrpmdGEeqtAP_odoN-tw" x="1" y="-53"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_UZVroWdGEeqtAP_odoN-tw"/>
+    <element xmi:type="uml:Message" href="hdfs-write.uml#_UZNv0GdGEeqtAP_odoN-tw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UZVromdGEeqtAP_odoN-tw" points="[0, 0, -1, 70]$[40, -65, 39, 5]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UZif8GdGEeqtAP_odoN-tw" id="(0.8382978723404255,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UZif8WdGEeqtAP_odoN-tw" id="(0.8361344537815126,0.7333333333333333)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_W8SwkGdGEeqtAP_odoN-tw" type="Path_Edge" source="_DSjakGcqEeqtAP_odoN-tw" target="_FK2Y8GcqEeqtAP_odoN-tw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_W8Swk2dGEeqtAP_odoN-tw" type="Path_MessageLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_W8SwlGdGEeqtAP_odoN-tw" x="15" y="11"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_W8SwlWdGEeqtAP_odoN-tw" type="Path_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_W8SwlmdGEeqtAP_odoN-tw" x="1" y="-53"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_W8SwkWdGEeqtAP_odoN-tw"/>
+    <element xmi:type="uml:Message" href="hdfs-write.uml#_W8Lb0GdGEeqtAP_odoN-tw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_W8SwkmdGEeqtAP_odoN-tw" points="[-1, -1, 0, 101]$[38, -106, 39, -4]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_W8e90GdGEeqtAP_odoN-tw" id="(0.8277310924369747,0.022222222222222223)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_W8e90WdGEeqtAP_odoN-tw" id="(0.8326180257510729,0.34782608695652173)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ZdCPAGdGEeqtAP_odoN-tw" type="Path_Edge" source="_FK2Y8GcqEeqtAP_odoN-tw" target="_9f8iwGcpEeqtAP_odoN-tw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZdCPA2dGEeqtAP_odoN-tw" type="Path_MessageLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZdC2EGdGEeqtAP_odoN-tw" x="10" y="14"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZdC2EWdGEeqtAP_odoN-tw" type="Path_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZdC2EmdGEeqtAP_odoN-tw" x="1" y="-53"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ZdCPAWdGEeqtAP_odoN-tw"/>
+    <element xmi:type="uml:Message" href="hdfs-write.uml#_Zc8IYGdGEeqtAP_odoN-tw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZdCPAmdGEeqtAP_odoN-tw" points="[0, 0, 50, 114]$[-42, -109, 8, 5]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZdQRcGdGEeqtAP_odoN-tw" id="(0.8240343347639485,0.0)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZdQ4gGdGEeqtAP_odoN-tw" id="(0.9455782312925171,0.9065420560747663)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_kkMJoGdGEeqtAP_odoN-tw" type="Path_Edge" source="_FK2Y8GcqEeqtAP_odoN-tw" target="_A_gZ4GcqEeqtAP_odoN-tw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_kkMJo2dGEeqtAP_odoN-tw" type="Path_MessageLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kkMJpGdGEeqtAP_odoN-tw" x="1" y="-23"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_kkMJpWdGEeqtAP_odoN-tw" type="Path_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kkMJpmdGEeqtAP_odoN-tw" x="1" y="-53"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_kkMJoWdGEeqtAP_odoN-tw"/>
+    <element xmi:type="uml:Message" href="hdfs-write.uml#_kkEN0GdGEeqtAP_odoN-tw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kkMJomdGEeqtAP_odoN-tw" points="[4, 0, -178, 126]$[182, 0, 0, 126]$[182, -125, 0, 1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kkZlAGdGEeqtAP_odoN-tw" id="(0.9828326180257511,0.45652173913043476)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kkZlAWdGEeqtAP_odoN-tw" id="(0.4854368932038835,0.991304347826087)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_mTuNkGdGEeqtAP_odoN-tw" type="Path_Edge" source="_DSjakGcqEeqtAP_odoN-tw" target="_A_gZ4GcqEeqtAP_odoN-tw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_mTuNk2dGEeqtAP_odoN-tw" type="Path_MessageLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mTuNlGdGEeqtAP_odoN-tw" x="1" y="-23"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_mTuNlWdGEeqtAP_odoN-tw" type="Path_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_mTuNlmdGEeqtAP_odoN-tw" x="1" y="-53"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_mTuNkWdGEeqtAP_odoN-tw"/>
+    <element xmi:type="uml:Message" href="hdfs-write.uml#_mTmRwGdGEeqtAP_odoN-tw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_mTuNkmdGEeqtAP_odoN-tw" points="[3, 0, -178, 242]$[181, 0, 0, 242]$[181, -240, 0, 2]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mT8QAGdGEeqtAP_odoN-tw" id="(0.9873949579831933,0.4222222222222222)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_mT8QAWdGEeqtAP_odoN-tw" id="(0.5145631067961165,0.9826086956521739)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_nqQisGdGEeqtAP_odoN-tw" type="Path_Edge" source="_wYrQ4GcxEeqtAP_odoN-tw" target="_A_gZ4GcqEeqtAP_odoN-tw">
+    <children xmi:type="notation:DecorationNode" xmi:id="_nqQis2dGEeqtAP_odoN-tw" type="Path_MessageLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_nqQitGdGEeqtAP_odoN-tw" x="1" y="-23"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_nqQitWdGEeqtAP_odoN-tw" type="Path_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_nqQitmdGEeqtAP_odoN-tw" x="1" y="-53"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_nqQisWdGEeqtAP_odoN-tw"/>
+    <element xmi:type="uml:Message" href="hdfs-write.uml#_nqH_0GdGEeqtAP_odoN-tw"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nqQismdGEeqtAP_odoN-tw" points="[3, 0, -183, 345]$[186, 0, 0, 345]$[186, -344, 0, 1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nqelIGdGEeqtAP_odoN-tw" id="(0.9872340425531915,0.4)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nqelIWdGEeqtAP_odoN-tw" id="(0.5436893203883495,0.991304347826087)"/>
+  </edges>
+</notation:Diagram>
