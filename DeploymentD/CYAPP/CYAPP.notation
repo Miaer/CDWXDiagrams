@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_osRbQGf0EeqzHfmdzRlV2A" type="PapyrusUMLDeploymentDiagram" name="Deployment Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_B-0ZkGghEeqzHfmdzRlV2A" type="Device_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_B-1AoGghEeqzHfmdzRlV2A" type="Device_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_B-1AoWghEeqzHfmdzRlV2A" type="Device_NestedNodeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_B-1AomghEeqzHfmdzRlV2A"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B-1Ao2ghEeqzHfmdzRlV2A"/>
+    </children>
+    <element xmi:type="uml:Device" href="CYAPP.uml#_B-xWQGghEeqzHfmdzRlV2A"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_B-0ZkWghEeqzHfmdzRlV2A" x="870" y="199"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Gb6P8GghEeqzHfmdzRlV2A" type="Device_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Gb6P8mghEeqzHfmdzRlV2A" type="Device_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_Gb6P82ghEeqzHfmdzRlV2A" type="Device_NestedNodeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_Gb6P9GghEeqzHfmdzRlV2A"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Gb6P9WghEeqzHfmdzRlV2A"/>
+    </children>
+    <element xmi:type="uml:Device" href="CYAPP.uml#_Gb4awGghEeqzHfmdzRlV2A"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Gb6P8WghEeqzHfmdzRlV2A" x="872" y="395"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_KW8iIGghEeqzHfmdzRlV2A" type="Device_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KW8iImghEeqzHfmdzRlV2A" type="Device_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_KW8iI2ghEeqzHfmdzRlV2A" type="Device_NestedNodeCompartment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_KW8iJGghEeqzHfmdzRlV2A"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KW8iJWghEeqzHfmdzRlV2A"/>
+    </children>
+    <element xmi:type="uml:Device" href="CYAPP.uml#_KW7UAGghEeqzHfmdzRlV2A"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KW8iIWghEeqzHfmdzRlV2A" x="564" y="293"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_osRbQWf0EeqzHfmdzRlV2A" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_osRbQmf0EeqzHfmdzRlV2A"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_osRbQ2f0EeqzHfmdzRlV2A" diagramKindId="org.eclipse.papyrus.uml.diagram.deployment">
+    <owner xmi:type="uml:Model" href="CYAPP.uml#_osHDMGf0EeqzHfmdzRlV2A"/>
+  </styles>
+  <element xmi:type="uml:Model" href="CYAPP.uml#_osHDMGf0EeqzHfmdzRlV2A"/>
+</notation:Diagram>
