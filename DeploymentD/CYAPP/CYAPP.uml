@@ -3,7 +3,4 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_osyYoGf0EeqzHfmdzRlV2A">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Device" xmi:id="_B-xWQGghEeqzHfmdzRlV2A" name="Server1"/>
-  <packagedElement xmi:type="uml:Device" xmi:id="_Gb4awGghEeqzHfmdzRlV2A" name="Server2"/>
-  <packagedElement xmi:type="uml:Device" xmi:id="_KW7UAGghEeqzHfmdzRlV2A" name="Proxy"/>
 </uml:Model>
