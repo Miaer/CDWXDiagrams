@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_wHlrIJvaEeq2S4ExXldSeA" type="PapyrusUMLActivityDiagram" name="Activity Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_wHlrIZvaEeq2S4ExXldSeA" type="Activity_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_wHlrIpvaEeq2S4ExXldSeA" type="Activity_NameLabel"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_wHlrI5vaEeq2S4ExXldSeA" type="Activity_KeywordLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wHlrJJvaEeq2S4ExXldSeA" type="Activity_ParameterCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wHlrJZvaEeq2S4ExXldSeA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wHlrJpvaEeq2S4ExXldSeA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wHlrJ5vaEeq2S4ExXldSeA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wHlrKJvaEeq2S4ExXldSeA" type="Activity_PreconditionCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wHlrKZvaEeq2S4ExXldSeA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wHlrKpvaEeq2S4ExXldSeA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wHlrK5vaEeq2S4ExXldSeA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wHlrLJvaEeq2S4ExXldSeA" type="Activity_PostconditionCompartment">
+      <styles xmi:type="notation:SortingStyle" xmi:id="_wHlrLZvaEeq2S4ExXldSeA"/>
+      <styles xmi:type="notation:FilteringStyle" xmi:id="_wHlrLpvaEeq2S4ExXldSeA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wHlrL5vaEeq2S4ExXldSeA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wHlrMJvaEeq2S4ExXldSeA" type="Activity_ActivityNodeCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_GgXrAJvbEeq2S4ExXldSeA" type="Activity_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_GgYSEJvbEeq2S4ExXldSeA" type="Activity_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_GgYSEZvbEeq2S4ExXldSeA" type="Activity_KeywordLabel_CN"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_GgYSEpvbEeq2S4ExXldSeA" type="Activity_ParameterCompartment_CN">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_GgYSE5vbEeq2S4ExXldSeA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_GgYSFJvbEeq2S4ExXldSeA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GgYSFZvbEeq2S4ExXldSeA"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_GgYSFpvbEeq2S4ExXldSeA" type="Activity_PreconditionCompartment_CN">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_GgYSF5vbEeq2S4ExXldSeA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_GgYSGJvbEeq2S4ExXldSeA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GgYSGZvbEeq2S4ExXldSeA"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_GgYSGpvbEeq2S4ExXldSeA" type="Activity_PostconditionCompartment_CN">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_GgYSG5vbEeq2S4ExXldSeA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_GgYSHJvbEeq2S4ExXldSeA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GgYSHZvbEeq2S4ExXldSeA"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_GgYSHpvbEeq2S4ExXldSeA" type="Activity_ActivityNodeCompartment_CN">
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GgYSH5vbEeq2S4ExXldSeA"/>
+        </children>
+        <element xmi:type="uml:Activity" href="Authorization-code.uml#_GgUnsJvbEeq2S4ExXldSeA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GgXrAZvbEeq2S4ExXldSeA" x="110" y="190"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_LG38EJvbEeq2S4ExXldSeA" type="Activity_Shape_CN">
+        <children xmi:type="notation:DecorationNode" xmi:id="_LG4jIJvbEeq2S4ExXldSeA" type="Activity_NameLabel_CN"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_LG4jIZvbEeq2S4ExXldSeA" type="Activity_KeywordLabel_CN"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_LG4jIpvbEeq2S4ExXldSeA" type="Activity_ParameterCompartment_CN">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_LG4jI5vbEeq2S4ExXldSeA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_LG4jJJvbEeq2S4ExXldSeA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LG4jJZvbEeq2S4ExXldSeA"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_LG4jJpvbEeq2S4ExXldSeA" type="Activity_PreconditionCompartment_CN">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_LG4jJ5vbEeq2S4ExXldSeA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_LG4jKJvbEeq2S4ExXldSeA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LG4jKZvbEeq2S4ExXldSeA"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_LG4jKpvbEeq2S4ExXldSeA" type="Activity_PostconditionCompartment_CN">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_LG4jK5vbEeq2S4ExXldSeA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_LG4jLJvbEeq2S4ExXldSeA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LG4jLZvbEeq2S4ExXldSeA"/>
+        </children>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_LG4jLpvbEeq2S4ExXldSeA" type="Activity_ActivityNodeCompartment_CN">
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LG4jL5vbEeq2S4ExXldSeA"/>
+        </children>
+        <element xmi:type="uml:Activity" href="Authorization-code.uml#_LGzDkJvbEeq2S4ExXldSeA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LG38EZvbEeq2S4ExXldSeA" x="552" y="195"/>
+      </children>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wHlrMZvaEeq2S4ExXldSeA"/>
+    </children>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_wK-9YJvaEeq2S4ExXldSeA" type="compartment_shape_display">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_wK-9YZvaEeq2S4ExXldSeA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wK-9YpvaEeq2S4ExXldSeA"/>
+    </children>
+    <element xmi:type="uml:Activity" href="Authorization-code.uml#_wHchMJvaEeq2S4ExXldSeA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wHlrMpvaEeq2S4ExXldSeA"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_wHlrM5vaEeq2S4ExXldSeA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_wHlrNJvaEeq2S4ExXldSeA"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_wHlrNZvaEeq2S4ExXldSeA" diagramKindId="org.eclipse.papyrus.uml.diagram.activity">
+    <owner xmi:type="uml:Model" href="Authorization-code.uml#_wG68wJvaEeq2S4ExXldSeA"/>
+  </styles>
+  <element xmi:type="uml:Activity" href="Authorization-code.uml#_wHchMJvaEeq2S4ExXldSeA"/>
+</notation:Diagram>
