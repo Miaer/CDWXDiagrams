@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_wG68wJvaEeq2S4ExXldSeA" name="Authorization-code">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_wIfDAJvaEeq2S4ExXldSeA">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_wHchMJvaEeq2S4ExXldSeA" name="Activity1" node="_9xZDgJ5dEeql8NNe28gIfg _EMHEMJ5eEeql8NNe28gIfg _FWo9oJ5eEeql8NNe28gIfg _ICrtIJ5eEeql8NNe28gIfg _J-xmYJ5eEeql8NNe28gIfg _LthAIJ5eEeql8NNe28gIfg _YPbokJ5eEeql8NNe28gIfg _7GzskJ5dEeql8NNe28gIfg _pmRYkJ5eEeql8NNe28gIfg _kXcGwJ5fEeql8NNe28gIfg">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_fl7VAJ5eEeql8NNe28gIfg" annotatedElement="_9xZDgJ5dEeql8NNe28gIfg _EMHEMJ5eEeql8NNe28gIfg _pmRYkJ5eEeql8NNe28gIfg _ICrtIJ5eEeql8NNe28gIfg _J-xmYJ5eEeql8NNe28gIfg _LthAIJ5eEeql8NNe28gIfg">
+      <body>拦截器方法</body>
+    </ownedComment>
+    <ownedBehavior xmi:type="uml:Activity" xmi:id="_JXH1sJvbEeq2S4ExXldSeA" name="CopyOf_A.com_1">
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_JXH1sZvbEeq2S4ExXldSeA" name="A.com"/>
+    </ownedBehavior>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_jWk8IJ5eEeql8NNe28gIfg" target="_9xZDgJ5dEeql8NNe28gIfg" source="_7GzskJ5dEeql8NNe28gIfg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_yjGJoJ5eEeql8NNe28gIfg" target="_pmRYkJ5eEeql8NNe28gIfg" source="_9xZDgJ5dEeql8NNe28gIfg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_061dEJ5eEeql8NNe28gIfg" name="true" target="_EMHEMJ5eEeql8NNe28gIfg" source="_pmRYkJ5eEeql8NNe28gIfg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_5WCdEJ5eEeql8NNe28gIfg" name="false" target="_FWo9oJ5eEeql8NNe28gIfg" source="_pmRYkJ5eEeql8NNe28gIfg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_CZZT8J5fEeql8NNe28gIfg" target="_ICrtIJ5eEeql8NNe28gIfg" source="_EMHEMJ5eEeql8NNe28gIfg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_DlR4QJ5fEeql8NNe28gIfg" target="_ICrtIJ5eEeql8NNe28gIfg" source="_FWo9oJ5eEeql8NNe28gIfg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ST9TMJ5fEeql8NNe28gIfg" target="_YPbokJ5eEeql8NNe28gIfg" source="_ICrtIJ5eEeql8NNe28gIfg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_T6XQUJ5fEeql8NNe28gIfg" name="否" target="_J-xmYJ5eEeql8NNe28gIfg" source="_YPbokJ5eEeql8NNe28gIfg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_VhYRcJ5fEeql8NNe28gIfg" name="是" target="_LthAIJ5eEeql8NNe28gIfg" source="_YPbokJ5eEeql8NNe28gIfg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_mvXncJ5fEeql8NNe28gIfg" target="_kXcGwJ5fEeql8NNe28gIfg" source="_J-xmYJ5eEeql8NNe28gIfg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_oLMsQJ5fEeql8NNe28gIfg" target="_kXcGwJ5fEeql8NNe28gIfg" source="_LthAIJ5eEeql8NNe28gIfg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_7GzskJ5dEeql8NNe28gIfg" name="调用Proxy方法" outgoing="_jWk8IJ5eEeql8NNe28gIfg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_9xZDgJ5dEeql8NNe28gIfg" name="before" incoming="_jWk8IJ5eEeql8NNe28gIfg" outgoing="_yjGJoJ5eEeql8NNe28gIfg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_EMHEMJ5eEeql8NNe28gIfg" name="around" incoming="_061dEJ5eEeql8NNe28gIfg" outgoing="_CZZT8J5fEeql8NNe28gIfg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_FWo9oJ5eEeql8NNe28gIfg" name="target原有方法" incoming="_5WCdEJ5eEeql8NNe28gIfg" outgoing="_DlR4QJ5fEeql8NNe28gIfg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ICrtIJ5eEeql8NNe28gIfg" name="after" incoming="_CZZT8J5fEeql8NNe28gIfg _DlR4QJ5fEeql8NNe28gIfg" outgoing="_ST9TMJ5fEeql8NNe28gIfg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_J-xmYJ5eEeql8NNe28gIfg" name="afterReturning" incoming="_T6XQUJ5fEeql8NNe28gIfg" outgoing="_mvXncJ5fEeql8NNe28gIfg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_LthAIJ5eEeql8NNe28gIfg" name="afterThrowing" incoming="_VhYRcJ5fEeql8NNe28gIfg" outgoing="_oLMsQJ5fEeql8NNe28gIfg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_YPbokJ5eEeql8NNe28gIfg" name="存在异常？" incoming="_ST9TMJ5fEeql8NNe28gIfg" outgoing="_T6XQUJ5fEeql8NNe28gIfg _VhYRcJ5fEeql8NNe28gIfg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_pmRYkJ5eEeql8NNe28gIfg" name="useAround" incoming="_yjGJoJ5eEeql8NNe28gIfg" outgoing="_061dEJ5eEeql8NNe28gIfg _5WCdEJ5eEeql8NNe28gIfg"/>
+    <node xmi:type="uml:FlowFinalNode" xmi:id="_kXcGwJ5fEeql8NNe28gIfg" name="" incoming="_mvXncJ5fEeql8NNe28gIfg _oLMsQJ5fEeql8NNe28gIfg"/>
+  </packagedElement>
+</uml:Model>
