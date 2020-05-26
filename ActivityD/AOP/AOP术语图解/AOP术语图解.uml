@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_JqlnMJ7vEeql8NNe28gIfg" name="AOP术语图解">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_Jrdw8J7vEeql8NNe28gIfg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_Jq2s8J7vEeql8NNe28gIfg" name="Activity1" node="_TOU_kJ71Eeq3jo-ZizvBXQ _jSzIwJ71Eeq3jo-ZizvBXQ" group="_jSzIwJ71Eeq3jo-ZizvBXQ">
+    <ownedBehavior xmi:type="uml:Activity" xmi:id="_6ObJQJ7wEeql8NNe28gIfg" name="HelloServiceImpl" node="_z-TPAJ7wEeql8NNe28gIfg">
+      <node xmi:type="uml:OpaqueAction" xmi:id="_z-TPAJ7wEeql8NNe28gIfg" name="连接点(sayHello)"/>
+    </ownedBehavior>
+    <structuredNode xmi:type="uml:LoopNode" xmi:id="_jSzIwJ71Eeq3jo-ZizvBXQ" name="LoopNode3">
+      <node xmi:type="uml:OpaqueAction" xmi:id="_nOuLwJ71Eeq3jo-ZizvBXQ" name="前置通知(before)"/>
+    </structuredNode>
+    <node xmi:type="uml:InitialNode" xmi:id="_TOU_kJ71Eeq3jo-ZizvBXQ" name=""/>
+  </packagedElement>
+</uml:Model>
